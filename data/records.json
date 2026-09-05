@@ -187,6 +187,12 @@
               "snippet": "Director: Arthur Pendelton, MD, FCAP",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -210,6 +216,12 @@
               "snippet": "Fasting Blood Glucose        142      mg/dL      70 - 99              HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -233,6 +245,12 @@
               "snippet": "Hemoglobin A1c               7.4      %          4.0 - 5.6            HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -256,6 +274,12 @@
               "snippet": "Serum Creatinine             0.9      mg/dL      0.6 - 1.2            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -279,6 +303,12 @@
               "snippet": "Blood Urea Nitrogen (BUN)    16       mg/dL      7 - 20               Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -302,6 +332,12 @@
               "snippet": "eGFR Non-African American    88       mL/min     > 60                 Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -325,6 +361,12 @@
               "snippet": "Sodium                       139      mEq/L      135 - 145            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -348,6 +390,12 @@
               "snippet": "Potassium                    4.4      mEq/L      3.5 - 5.1            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -371,6 +419,12 @@
               "snippet": "Chloride                     102      mEq/L      96 - 106             Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -394,6 +448,12 @@
               "snippet": "Carbon Dioxide (CO2)         24       mEq/L      22 - 29              Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -417,6 +477,12 @@
               "snippet": "Serum Calcium                9.4      mg/dL      8.5 - 10.2           Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -440,6 +506,12 @@
               "snippet": "Total Protein                7.1      g/dL       6.0 - 8.3            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -463,6 +535,12 @@
               "snippet": "Serum Albumin                4.3      g/dL       3.5 - 5.0            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -486,6 +564,12 @@
               "snippet": "Total Bilirubin              0.7      mg/dL      0.2 - 1.2            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -509,6 +593,12 @@
               "snippet": "Alkaline Phosphatase         78       U/L        44 - 121             Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -532,6 +622,12 @@
               "snippet": "ALT (SGPT)                   28       U/L        7 - 35               Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -555,6 +651,12 @@
               "snippet": "AST (SGOT)                   24       U/L        8 - 35               Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -578,6 +680,12 @@
               "snippet": "Random Urine Protein         18       mg/dL                           [Pending range verification]",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           }
         ],
@@ -607,6 +715,12 @@
           "snippet": "Director: Arthur Pendelton, MD, FCAP",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -630,6 +744,12 @@
           "snippet": "Fasting Blood Glucose        142      mg/dL      70 - 99              HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": true,
+          "verified_by": "Dr. Evelyn Reed, MD",
+          "verified_at": "2026-09-05 16:20:38",
+          "clinician_notes": "Correlated with fasting venous sample."
         }
       },
       {
@@ -653,6 +773,12 @@
           "snippet": "Hemoglobin A1c               7.4      %          4.0 - 5.6            HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -676,6 +802,12 @@
           "snippet": "Serum Creatinine             0.9      mg/dL      0.6 - 1.2            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -699,6 +831,12 @@
           "snippet": "Blood Urea Nitrogen (BUN)    16       mg/dL      7 - 20               Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -722,6 +860,12 @@
           "snippet": "eGFR Non-African American    88       mL/min     > 60                 Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -745,6 +889,12 @@
           "snippet": "Sodium                       139      mEq/L      135 - 145            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -768,6 +918,12 @@
           "snippet": "Potassium                    4.4      mEq/L      3.5 - 5.1            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -791,6 +947,12 @@
           "snippet": "Chloride                     102      mEq/L      96 - 106             Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -814,6 +976,12 @@
           "snippet": "Carbon Dioxide (CO2)         24       mEq/L      22 - 29              Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -837,6 +1005,12 @@
           "snippet": "Serum Calcium                9.4      mg/dL      8.5 - 10.2           Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -860,6 +1034,12 @@
           "snippet": "Total Protein                7.1      g/dL       6.0 - 8.3            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -883,6 +1063,12 @@
           "snippet": "Serum Albumin                4.3      g/dL       3.5 - 5.0            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -906,6 +1092,12 @@
           "snippet": "Total Bilirubin              0.7      mg/dL      0.2 - 1.2            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -929,6 +1121,12 @@
           "snippet": "Alkaline Phosphatase         78       U/L        44 - 121             Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -952,6 +1150,12 @@
           "snippet": "ALT (SGPT)                   28       U/L        7 - 35               Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -975,6 +1179,12 @@
           "snippet": "AST (SGOT)                   24       U/L        8 - 35               Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -998,6 +1208,12 @@
           "snippet": "Random Urine Protein         18       mg/dL                           [Pending range verification]",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       }
     ],
@@ -1035,8 +1251,9 @@
       "generated_at": "2026-09-05 12:35:06",
       "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
     },
+    "conflicts": [],
     "created_at": "2026-09-05 12:35:06",
-    "updated_at": "2026-09-05 12:35:06"
+    "updated_at": "2026-09-05 16:20:38"
   },
   "pt-20931": {
     "record_id": "pt-20931",
@@ -1188,6 +1405,12 @@
               "snippet": "Name: Marcus Thorne     Age: 47     Sex: Male",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1211,6 +1434,12 @@
               "snippet": "Referring Cardiologist: Dr. Helena Vance, MD, FACC",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1234,6 +1463,12 @@
               "snippet": "Total Cholesterol            228      mg/dL      < 200                HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1257,6 +1492,12 @@
               "snippet": "Triglycerides                210      mg/dL      < 150                HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1280,6 +1521,12 @@
               "snippet": "HDL Cholesterol              38       mg/dL      > 40                 LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1303,6 +1550,12 @@
               "snippet": "LDL Cholesterol (Calc)       148      mg/dL      < 100                HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1326,6 +1579,12 @@
               "snippet": "Non-HDL Cholesterol          190      mg/dL      < 130                HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1349,6 +1608,12 @@
               "snippet": "Cholesterol/HDL Ratio        6.0      ratio      < 5.0                HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1372,6 +1637,12 @@
               "snippet": "High Sensitivity CRP         3.8      mg/L       < 1.0                HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1395,6 +1666,12 @@
               "snippet": "Troponin I (High Sens)       0.01     ng/mL      < 0.04               Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1418,6 +1695,12 @@
               "snippet": "Brain Natriuretic Peptide    42       pg/mL      < 100                Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1441,6 +1724,12 @@
               "snippet": "Serum Potassium              4.1      mEq/L      3.5 - 5.0            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           }
         ],
@@ -1470,6 +1759,12 @@
           "snippet": "Name: Marcus Thorne     Age: 47     Sex: Male",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1493,6 +1788,12 @@
           "snippet": "Referring Cardiologist: Dr. Helena Vance, MD, FACC",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1516,6 +1817,12 @@
           "snippet": "Total Cholesterol            228      mg/dL      < 200                HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1539,6 +1846,12 @@
           "snippet": "Triglycerides                210      mg/dL      < 150                HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1562,6 +1875,12 @@
           "snippet": "HDL Cholesterol              38       mg/dL      > 40                 LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1585,6 +1904,12 @@
           "snippet": "LDL Cholesterol (Calc)       148      mg/dL      < 100                HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1608,6 +1933,12 @@
           "snippet": "Non-HDL Cholesterol          190      mg/dL      < 130                HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1631,6 +1962,12 @@
           "snippet": "Cholesterol/HDL Ratio        6.0      ratio      < 5.0                HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1654,6 +1991,12 @@
           "snippet": "High Sensitivity CRP         3.8      mg/L       < 1.0                HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1677,6 +2020,12 @@
           "snippet": "Troponin I (High Sens)       0.01     ng/mL      < 0.04               Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1700,6 +2049,12 @@
           "snippet": "Brain Natriuretic Peptide    42       pg/mL      < 100                Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -1723,6 +2078,12 @@
           "snippet": "Serum Potassium              4.1      mEq/L      3.5 - 5.0            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       }
     ],
@@ -1795,6 +2156,7 @@
       "generated_at": "2026-09-05 12:35:06",
       "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
     },
+    "conflicts": [],
     "created_at": "2026-09-05 12:35:06",
     "updated_at": "2026-09-05 12:35:06"
   },
@@ -1936,6 +2298,12 @@
               "snippet": "White Blood Count (WBC)      6.8      K/uL       4.0 - 11.0           Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1959,6 +2327,12 @@
               "snippet": "Red Blood Count (RBC)        3.4      M/uL       4.0 - 5.2            LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -1982,6 +2356,12 @@
               "snippet": "Hemoglobin                   9.8      g/dL       12.0 - 15.5          LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2005,6 +2385,12 @@
               "snippet": "Hematocrit                   30.5     %          36.0 - 46.0          LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2028,6 +2414,12 @@
               "snippet": "MCV                          72       fL         80 - 100             LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2051,6 +2443,12 @@
               "snippet": "MCH                          23.4     pg         27.0 - 33.0          LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2074,6 +2472,12 @@
               "snippet": "MCHC                         30.2     g/dL       32.0 - 36.0          LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2097,6 +2501,12 @@
               "snippet": "RDW                          17.2     %          11.5 - 14.5          HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2120,6 +2530,12 @@
               "snippet": "Platelet Count               285      K/uL       150 - 450            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2143,6 +2559,12 @@
               "snippet": "Serum Ferritin               8        ng/mL      15 - 150             LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2166,6 +2588,12 @@
               "snippet": "Serum Iron                   28       mcg/dL     50 - 170             LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2189,6 +2617,12 @@
               "snippet": "Total Iron Binding (TIBC)    440      mcg/dL     250 - 400            HIGH",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2212,6 +2646,12 @@
               "snippet": "Transferrin Saturation       6.4      %          15.0 - 50.0          LOW",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           },
           {
@@ -2235,6 +2675,12 @@
               "snippet": "Vitamin B12                  480      pg/mL      200 - 900            Normal",
               "page_number": 1,
               "extracted_at": "2026-09-05 12:35:06"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
             }
           }
         ],
@@ -2264,6 +2710,12 @@
           "snippet": "White Blood Count (WBC)      6.8      K/uL       4.0 - 11.0           Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2287,6 +2739,12 @@
           "snippet": "Red Blood Count (RBC)        3.4      M/uL       4.0 - 5.2            LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2310,6 +2768,12 @@
           "snippet": "Hemoglobin                   9.8      g/dL       12.0 - 15.5          LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2333,6 +2797,12 @@
           "snippet": "Hematocrit                   30.5     %          36.0 - 46.0          LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2356,6 +2826,12 @@
           "snippet": "MCV                          72       fL         80 - 100             LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2379,6 +2855,12 @@
           "snippet": "MCH                          23.4     pg         27.0 - 33.0          LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2402,6 +2884,12 @@
           "snippet": "MCHC                         30.2     g/dL       32.0 - 36.0          LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2425,6 +2913,12 @@
           "snippet": "RDW                          17.2     %          11.5 - 14.5          HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2448,6 +2942,12 @@
           "snippet": "Platelet Count               285      K/uL       150 - 450            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2471,6 +2971,12 @@
           "snippet": "Serum Ferritin               8        ng/mL      15 - 150             LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2494,6 +3000,12 @@
           "snippet": "Serum Iron                   28       mcg/dL     50 - 170             LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2517,6 +3029,12 @@
           "snippet": "Total Iron Binding (TIBC)    440      mcg/dL     250 - 400            HIGH",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2540,6 +3058,12 @@
           "snippet": "Transferrin Saturation       6.4      %          15.0 - 50.0          LOW",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       },
       {
@@ -2563,6 +3087,12 @@
           "snippet": "Vitamin B12                  480      pg/mL      200 - 900            Normal",
           "page_number": 1,
           "extracted_at": "2026-09-05 12:35:06"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
         }
       }
     ],
@@ -2662,6 +3192,7 @@
       "generated_at": "2026-09-05 12:35:06",
       "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
     },
+    "conflicts": [],
     "created_at": "2026-09-05 12:35:06",
     "updated_at": "2026-09-05 12:35:06"
   },
@@ -2764,7 +3295,505 @@
       "generated_at": "2026-09-05 12:35:20",
       "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
     },
+    "conflicts": [],
     "created_at": "2026-09-05 12:35:20",
     "updated_at": "2026-09-05 12:35:20"
+  },
+  "test-paste-patient": {
+    "record_id": "test-paste-patient",
+    "patient": {
+      "patient_id": "test-paste-patient",
+      "full_name": "Test Paste User",
+      "age": 35,
+      "sex": "Unspecified",
+      "dob": null,
+      "blood_type": null,
+      "contact_phone": null,
+      "emergency_contact": null,
+      "symptoms": [],
+      "existing_conditions": [],
+      "allergies": [],
+      "medications": [],
+      "surgical_history": [],
+      "lifestyle_notes": null,
+      "last_updated": "2026-09-05 16:20:38",
+      "provenance": {
+        "source_type": "User Provided",
+        "source_name": "Patient Intake Form (Updated)",
+        "snippet": null,
+        "page_number": null,
+        "extracted_at": "2026-09-05 16:20:38"
+      }
+    },
+    "reports": [
+      {
+        "report_id": "359279c3",
+        "filename": "City_Health_Report.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 16:09:59",
+        "report_date": null,
+        "facility_or_doctor": null,
+        "extracted_tests": [
+          {
+            "id": "b33d1a17",
+            "test_name": "Hemoglobin",
+            "category": "Hematology",
+            "value": "10.5",
+            "numeric_value": 10.5,
+            "unit": "g/dL",
+            "reference_range_raw": "12.0 - 16.0",
+            "ref_low": 12.0,
+            "ref_high": 16.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 10.5 is below source reference range (12.0 - 16.0 g/dL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "Hemoglobin                   10.5     g/dL       12.0 - 16.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:09:59"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          },
+          {
+            "id": "f31c311d",
+            "test_name": "White Blood Count",
+            "category": "Hematology",
+            "value": "7.5",
+            "numeric_value": 7.5,
+            "unit": "K/uL",
+            "reference_range_raw": "4.0 - 11.0",
+            "ref_low": 4.0,
+            "ref_high": 11.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 7.5 is within source reference range (4.0 - 11.0 K/uL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "White Blood Count            7.5      K/uL       4.0 - 11.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:09:59"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          }
+        ],
+        "raw_text_preview": "\nCITY HEALTH LAB\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL\nHemoglobin                   10.5     g/dL       12.0 - 16.0\nWhite Blood Count            7.5      K/uL       4.0 - 11.0\n",
+        "extraction_method": "Deterministic Clinical NLP"
+      },
+      {
+        "report_id": "d4ebfee3",
+        "filename": "City_Health_Report.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 16:13:48",
+        "report_date": null,
+        "facility_or_doctor": null,
+        "extracted_tests": [
+          {
+            "id": "f765bcb5",
+            "test_name": "Hemoglobin",
+            "category": "Hematology",
+            "value": "10.5",
+            "numeric_value": 10.5,
+            "unit": "g/dL",
+            "reference_range_raw": "12.0 - 16.0",
+            "ref_low": 12.0,
+            "ref_high": 16.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 10.5 is below source reference range (12.0 - 16.0 g/dL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "Hemoglobin                   10.5     g/dL       12.0 - 16.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:13:48"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          },
+          {
+            "id": "428254b4",
+            "test_name": "White Blood Count",
+            "category": "Hematology",
+            "value": "7.5",
+            "numeric_value": 7.5,
+            "unit": "K/uL",
+            "reference_range_raw": "4.0 - 11.0",
+            "ref_low": 4.0,
+            "ref_high": 11.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 7.5 is within source reference range (4.0 - 11.0 K/uL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "White Blood Count            7.5      K/uL       4.0 - 11.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:13:48"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          }
+        ],
+        "raw_text_preview": "\nCITY HEALTH LAB\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL\nHemoglobin                   10.5     g/dL       12.0 - 16.0\nWhite Blood Count            7.5      K/uL       4.0 - 11.0\n",
+        "extraction_method": "Deterministic Clinical NLP"
+      },
+      {
+        "report_id": "febdc08b",
+        "filename": "City_Health_Report.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 16:17:11",
+        "report_date": null,
+        "facility_or_doctor": null,
+        "extracted_tests": [
+          {
+            "id": "7a215145",
+            "test_name": "Hemoglobin",
+            "category": "Hematology",
+            "value": "10.5",
+            "numeric_value": 10.5,
+            "unit": "g/dL",
+            "reference_range_raw": "12.0 - 16.0",
+            "ref_low": 12.0,
+            "ref_high": 16.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 10.5 is below source reference range (12.0 - 16.0 g/dL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "Hemoglobin                   10.5     g/dL       12.0 - 16.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:17:11"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          },
+          {
+            "id": "8450b92a",
+            "test_name": "White Blood Count",
+            "category": "Hematology",
+            "value": "7.5",
+            "numeric_value": 7.5,
+            "unit": "K/uL",
+            "reference_range_raw": "4.0 - 11.0",
+            "ref_low": 4.0,
+            "ref_high": 11.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 7.5 is within source reference range (4.0 - 11.0 K/uL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "White Blood Count            7.5      K/uL       4.0 - 11.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:17:11"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          }
+        ],
+        "raw_text_preview": "\nCITY HEALTH LAB\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL\nHemoglobin                   10.5     g/dL       12.0 - 16.0\nWhite Blood Count            7.5      K/uL       4.0 - 11.0\n",
+        "extraction_method": "Deterministic Clinical NLP"
+      },
+      {
+        "report_id": "f0902b67",
+        "filename": "City_Health_Report.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 16:20:38",
+        "report_date": null,
+        "facility_or_doctor": null,
+        "extracted_tests": [
+          {
+            "id": "a7127225",
+            "test_name": "Hemoglobin",
+            "category": "Hematology",
+            "value": "10.5",
+            "numeric_value": 10.5,
+            "unit": "g/dL",
+            "reference_range_raw": "12.0 - 16.0",
+            "ref_low": 12.0,
+            "ref_high": 16.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 10.5 is below source reference range (12.0 - 16.0 g/dL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "Hemoglobin                   10.5     g/dL       12.0 - 16.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:20:38"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          },
+          {
+            "id": "a6568bd2",
+            "test_name": "White Blood Count",
+            "category": "Hematology",
+            "value": "7.5",
+            "numeric_value": 7.5,
+            "unit": "K/uL",
+            "reference_range_raw": "4.0 - 11.0",
+            "ref_low": 4.0,
+            "ref_high": 11.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 7.5 is within source reference range (4.0 - 11.0 K/uL).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "City_Health_Report.txt",
+              "snippet": "White Blood Count            7.5      K/uL       4.0 - 11.0",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 16:20:38"
+            },
+            "verification": {
+              "is_verified": false,
+              "verified_by": null,
+              "verified_at": null,
+              "clinician_notes": null
+            }
+          }
+        ],
+        "raw_text_preview": "\nCITY HEALTH LAB\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL\nHemoglobin                   10.5     g/dL       12.0 - 16.0\nWhite Blood Count            7.5      K/uL       4.0 - 11.0\n",
+        "extraction_method": "Deterministic Clinical NLP"
+      }
+    ],
+    "all_lab_results": [
+      {
+        "id": "a7127225",
+        "test_name": "Hemoglobin",
+        "category": "Hematology",
+        "value": "10.5",
+        "numeric_value": 10.5,
+        "unit": "g/dL",
+        "reference_range_raw": "12.0 - 16.0",
+        "ref_low": 12.0,
+        "ref_high": 16.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 10.5 is below source reference range (12.0 - 16.0 g/dL).",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "City_Health_Report.txt",
+          "snippet": "Hemoglobin                   10.5     g/dL       12.0 - 16.0",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 16:20:38"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
+        }
+      },
+      {
+        "id": "a6568bd2",
+        "test_name": "White Blood Count",
+        "category": "Hematology",
+        "value": "7.5",
+        "numeric_value": 7.5,
+        "unit": "K/uL",
+        "reference_range_raw": "4.0 - 11.0",
+        "ref_low": 4.0,
+        "ref_high": 11.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 7.5 is within source reference range (4.0 - 11.0 K/uL).",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "City_Health_Report.txt",
+          "snippet": "White Blood Count            7.5      K/uL       4.0 - 11.0",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 16:20:38"
+        },
+        "verification": {
+          "is_verified": false,
+          "verified_by": null,
+          "verified_at": null,
+          "clinician_notes": null
+        }
+      }
+    ],
+    "summary": {
+      "overview": "This unified medical overview aggregates self-reported intake details for a 35-year-old individual alongside 2 diagnostic test results extracted from 4 uploaded medical report(s).",
+      "key_findings": [
+        "1 diagnostic value(s) fall outside the specific reference ranges provided on the report.",
+        "1 test parameter(s) fall comfortably within the source document's established normal ranges."
+      ],
+      "out_of_range_explanations": [
+        {
+          "test_name": "Hemoglobin",
+          "status": "LOW",
+          "value": "10.5 g/dL",
+          "reference_range": "12.0 - 16.0",
+          "explanation": "Result was 10.5 g/dL, which is below source low threshold of [12.0 - 16.0]. (Oxygen-transporting protein found within red blood cells.) Discuss this with your clinician to understand what this means for your individual health context."
+        }
+      ],
+      "questions_for_doctor": [
+        "How do these laboratory results relate to my current symptoms and day-to-day energy levels?",
+        "What follow-up steps, lifestyle adjustments, or repeat testing do you recommend regarding my Hemoglobin?",
+        "When should I schedule my next routine check-up or follow-up blood work?"
+      ],
+      "disclaimer": "IMPORTANT MEDICAL DISCLAIMER: This summary is generated for informational and organizational purposes only. It does NOT constitute a medical diagnosis, clinical opinion, or treatment advice. Laboratory values must always be interpreted in clinical context by your licensed healthcare provider.",
+      "generated_at": "2026-09-05 16:20:38",
+      "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
+    },
+    "conflicts": [],
+    "created_at": "2026-09-05 16:09:59",
+    "updated_at": "2026-09-05 16:20:38"
+  },
+  "test-pt-999": {
+    "record_id": "test-pt-999",
+    "patient": {
+      "patient_id": "TEST-PT-999",
+      "full_name": "Alexander Hayes",
+      "age": 42,
+      "sex": "Male",
+      "dob": "1984-06-12",
+      "blood_type": "O+",
+      "contact_phone": "+1 555 123 4567",
+      "emergency_contact": "Claire Hayes (Spouse)",
+      "symptoms": [
+        {
+          "name": "Frequent Headaches",
+          "severity": "Moderate",
+          "duration": "1 week",
+          "notes": "Frontal throbbing",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 16:20:38"
+          }
+        }
+      ],
+      "existing_conditions": [
+        {
+          "condition_name": "Mild Hypertension",
+          "diagnosed_year_or_date": "2020",
+          "status": "Active",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 16:20:38"
+          }
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Sulfa",
+          "reaction": "Rash",
+          "severity": "Mild",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 16:20:38"
+          }
+        }
+      ],
+      "medications": [
+        {
+          "name": "Amlodipine",
+          "dosage": "5 mg",
+          "frequency": "Daily",
+          "purpose": "Blood pressure",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 16:20:38"
+          }
+        }
+      ],
+      "surgical_history": [],
+      "lifestyle_notes": null,
+      "last_updated": "2026-09-05 16:20:38",
+      "provenance": {
+        "source_type": "User Provided",
+        "source_name": "Patient Intake Form (Updated)",
+        "snippet": null,
+        "page_number": null,
+        "extracted_at": "2026-09-05 16:20:38"
+      }
+    },
+    "reports": [],
+    "all_lab_results": [],
+    "summary": {
+      "overview": "This unified medical overview aggregates self-reported intake details for a 42-year-old male alongside 0 diagnostic test results extracted from 0 uploaded medical report(s). Current self-reported symptoms include: Frequent Headaches (moderate, 1 week). Active reported medications: Amlodipine 5 mg.",
+      "key_findings": [
+        "Patient self-reported documented allergies: Sulfa (Rash)."
+      ],
+      "out_of_range_explanations": [],
+      "questions_for_doctor": [
+        "How do these laboratory results relate to my current symptoms and day-to-day energy levels?",
+        "Are my current medications still at optimal dosages based on these latest lab results and kidney/liver markers?",
+        "When should I schedule my next routine check-up or follow-up blood work?"
+      ],
+      "disclaimer": "IMPORTANT MEDICAL DISCLAIMER: This summary is generated for informational and organizational purposes only. It does NOT constitute a medical diagnosis, clinical opinion, or treatment advice. Laboratory values must always be interpreted in clinical context by your licensed healthcare provider.",
+      "generated_at": "2026-09-05 16:20:38",
+      "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
+    },
+    "conflicts": [],
+    "created_at": "2026-09-05 16:09:59",
+    "updated_at": "2026-09-05 16:20:38"
   }
 }

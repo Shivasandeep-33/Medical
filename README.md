@@ -1,102 +1,121 @@
-# MediSync AI — Clinical Record & Report Processing System
+# MedLens — AI-Powered Clinical Intelligence & Healthcare Portal
 
-An AI-powered, full-stack clinical intelligence application that collects patient information, ingests diagnostic laboratory reports (PDF or text), organizes findings into a structured medical record with strict reference-range awareness, tracks provenance, and generates patient-friendly clinical summaries without diagnostic or prescribing claims.
+An enterprise-grade, full-stack AI healthcare platform that combines:
+1. **Patient Information Intake & Clinical History**
+2. **Medical Laboratory Report Processing (PDF & Text) with Strict Reference-Range Awareness & Source Provenance**
+3. **AI Patient-Friendly Summaries** with clinical safety guardrails (zero definitive diagnoses or unauthorized prescriptions)
+4. **User Authentication & Role-Based Access Control** (Patient, Doctor, Admin with 1-click demo accounts)
+5. **Integrated Booking System** (Online Teleconsultations with encrypted WebRTC video rooms & In-Person clinic appointments)
+6. **Emergency Ambulance Dispatch & Real-Time Telemetry Tracker** (Live GPS ETA, ACLS unit telemetry, paramedic contact, and 911/112 hotline)
+7. **AI Symptom-to-Disease Agent & Triage Engine** (60+ clinical conditions, body-system selector, triage urgency indicators)
+8. **Automatic Medication Detection & Online Pharmacy Redirection** (Detects tablet/medicine queries in AI chat, provides drug guidance, and automatically redirects to the integrated pharmacy to order)
+9. **Clinician Human Verification, Multi-Report Trend Comparison, and Drug-Allergy Conflict Detection**
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Quick Start
 
 ### 1. Requirements
-- Python 3.10+ (Tested and verified on Python 3.14 / 3.13)
-- No Node.js required! The single-page frontend is delivered directly by FastAPI.
+- Python 3.10+ (Verified on Python 3.14 / 3.13)
+- No Node.js required! Delivered via FastAPI and high-performance vanilla JavaScript with Tailwind CSS.
 
-### 2. Run the Application
-In your terminal, navigate to the project root and execute:
-
+### 2. Run the Server
 ```bash
 python app.py
 ```
+Or simply double-click:
+`start_app.bat`
 
-Then open your browser and navigate to:
+Then open your browser at:
 **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
 ---
 
-## 🎯 Core Requirements & Implementation Highlights
+## 🔑 Demo Accounts (Instant 1-Click Login)
 
-| Requirement | Implementation in MediSync AI |
-| :--- | :--- |
-| **1. Patient Information Intake** | Multi-section intake form capturing demographics (Name, Age, Sex, DOB, Blood Type, Contact, Emergency Contact), dynamic symptoms (Severity, Duration, Notes), active medications, allergies with reactions, conditions, and surgeries. |
-| **2. Medical Report Processing** | Ingests PDF or raw clinical text reports. Extracts test names, values, units, reference intervals, collection dates, and observations using dual-engine parser (Clinical NLP regex or Google Gemini AI). |
-| **3. Structured Medical Record** | Unified patient dossier categorizing tests into clinical domains (Hematology, Metabolic, Lipids, Renal, Hepatic, etc.), alongside clinical intake data and out-of-range critical alerts. |
-| **4. Reference-Range Awareness** | **Strict Guarantee**: The system strictly uses reference ranges printed in the source report. It evaluates `LOW`, `NORMAL`, `HIGH`. If no range exists in the document, it explicitly flags `Not specified in report` (Status: `UNSPECIFIED`) and **never invents standard ranges**. |
-| **5. Source & Provenance** | Interactive color-coded badges and citation modal: <br>• 👤 `User Provided` (Intake fields)<br>• 📄 `Extracted from Report: [Filename]` (with exact raw line snippet and page number)<br>• 🤖 `AI Generated` (Summary narrative) |
-| **6. AI-Powered Summary** | Synthesizes patient-friendly narrative, key highlights, lay explanations of out-of-range findings, and suggested questions to discuss with their physician. Follows strict safety guardrails: **zero medical diagnosis or prescriptive advice**. |
+| Role | Email | Password | Linked Demo Profile |
+| :--- | :--- | :--- | :--- |
+| **Patient** | `patient@medlens.health` | `patient123` | Eleanor Vance (Type 2 Diabetes & Metabolic Panel) |
+| **Doctor** | `doctor@medlens.health` | `doctor123` | Dr. Evelyn Reed, MD (Consultant Cardiologist) |
+| **Admin** | `admin@medlens.health` | `admin123` | MedLens Clinical Administrator |
 
----
-
-## 🧪 Preloaded Clinical Demo Cases & Sample PDFs
-
-For instant 1-click evaluation, the application includes 3 realistic preloaded cases accessible via the **"Demo Cases"** button in the top navigation:
-
-1. **Case 1: Eleanor Vance (54F)** — *Type 2 Diabetes & Comprehensive Metabolic Panel*
-   - Elevated Glucose (142 mg/dL) and HbA1c (7.4%).
-   - Demonstrates reference-range awareness via an un-ranged Urine Protein test (marked `Not specified in report`).
-2. **Case 2: Marcus Thorne (47M)** — *Cardiovascular & Lipid Risk Assessment*
-   - Elevated Total Cholesterol, high LDL, low HDL, elevated hs-CRP, normal Troponin I.
-3. **Case 3: Sarah Chen (29F)** — *Hematology & Iron Deficiency Profile*
-   - Microcytic hypochromic indices (low Hemoglobin 9.8 g/dL, low Hematocrit, low Ferritin 8 ng/mL, high TIBC).
-
-### Testing PDF Upload:
-Realistic PDF lab reports are pre-generated in the `sample_reports/` directory:
-- `sample_reports/Metabolic_Panel_Vance.pdf`
-- `sample_reports/Cardio_Lipid_Panel_Thorne.pdf`
-- `sample_reports/CBC_Iron_Study_Chen.pdf`
-
-You can drag and drop any of these directly onto the **"Upload & Process Report"** tab!
+*Tip*: You can also switch roles instantly using the **`🩺 Demo Dr.`** and **`👤 Demo Pt.`** buttons in the top navigation header!
 
 ---
 
-## ⚙️ Architecture & File Structure
+## 🌟 Core Feature Breakdown
 
-```
-Medical ai agent/
-├── app.py                     # FastAPI REST API, report endpoints, static file mounting
-├── models.py                  # Pydantic schemas (Patient, LabResult, StructuredRecord, Provenance)
-├── extractor.py               # PDF parser (pypdf), regex clinical NLP, ref-range evaluator, Gemini API
-├── summarizer.py              # Patient-friendly summary generator with clinical safety guardrails
-├── storage.py                 # Persistent JSON store with preloaded sample records
-├── samples.py                 # Synthetic clinical datasets & sample lab reports
-├── create_sample_pdfs.py      # Utility script to generate sample clinical PDFs
-├── test_app.py                # Automated test suite (8 unit & integration tests)
-├── requirements.txt           # Python dependencies
-├── sample_reports/            # Ready-to-use sample lab PDF documents
-│   ├── Metabolic_Panel_Vance.pdf
-│   ├── Cardio_Lipid_Panel_Thorne.pdf
-│   └── CBC_Iron_Study_Chen.pdf
-└── static/
-    ├── index.html             # Responsive clinical dashboard UI (Tailwind CSS, Lucide Icons)
-    ├── app.js                 # Reactive frontend logic, state management, API calls
-    └── style.css              # Custom styling, provenance badges, print styles
-```
+### 1. Structured Clinical Record & Lab Dossier
+- **Strict Reference-Range Awareness**: Evaluates `LOW`, `NORMAL`, or `HIGH` strictly using intervals printed in the document. If no reference range is provided in the source report, the status is marked `UNSPECIFIED` (**no standard ranges are ever invented**).
+- **Source & Provenance**: Interactive color-coded badges tracing every datum to `User Provided`, `Extracted from Report: [Filename]` (with line snippet), or `AI Generated`.
+- **Human Verification & Editing**: Attending clinicians can review and mark lab results as `Verified by Clinician` with audit notes and timestamps.
+- **Multi-Report Comparison**: Side-by-side historical comparison view showing baseline vs latest values, delta %, and directional trends (`INCREASED`, `DECREASED`, `STABLE`).
+- **Conflict & Inconsistency Detection**: Flags drug-allergy interactions (e.g. Penicillin vs Amoxicillin, Aspirin vs NSAIDs) and critical lab elevations.
 
----
+### 2. AI Symptom-to-Disease Agent & Clinical Chat
+- Evaluates symptoms against a knowledge base of 60+ medical conditions.
+- Body-System Interactive Symptom Picker (Head & Brain, Chest & Heart, Abdomen, Muscles & Joints, Systemic).
+- 1-Click Clinical Demo Scenarios (Influenza, Suspected Cardiac Emergency, Severe Migraine, Type 2 Diabetes, UTI).
+- Multi-turn doctor-agent chat with triage urgency classifications (`ROUTINE`, `MODERATE`, `EMERGENCY RED-FLAG`).
 
-## 🛡️ Optional Google Gemini AI Integration
+### 3. Automatic Medication Detection & Online Pharmacy Redirection
+- When a user asks about tablets or medications (e.g., *Paracetamol*, *Metformin*, *Atorvastatin*, *Amoxicillin*, *Ibuprofen*, *Aspirin*, *Cetirizine*, *Omeprazole*, etc.):
+  1. The AI Agent explains indications, standard dosage form, precautions, and prescription requirements.
+  2. Renders an interactive **MedLens Pharmacy Card** directly in the chat with 1-click Add-to-Cart.
+  3. Displays a floating countdown banner (*"Identified medication: [Name]. Redirecting you to MedLens Online Pharmacy in 2 seconds..."*).
+  4. Automatically transitions the UI tab to the **Online Pharmacy**, scrolls to and highlights the target medication with an animated glow ring, and opens the purchase drawer!
+- Complete Online Pharmacy store with search, category filtering, cart management, and 1-click checkout with order tracking numbers.
 
-The application works 100% offline out-of-the-box using the built-in deterministic clinical NLP parser.
+### 4. Integrated Healthcare Booking System
+- **Online Teleconsultations**: Directory of 5 specialist doctors (Cardiologist, Endocrinologist, General Physician, Pulmonologist, Neurologist). Generates an encrypted WebRTC video call room link (`https://telehealth.medlens.health/room/BK-XXXXX`) with an interactive video consultation simulator.
+- **In-Person Appointments**: Select clinic branch / hospital suite, doctor, date/time slot, and generate appointment passes.
+- **My Appointments**: Active bookings manager with cancellation support.
 
-If you wish to enable Google Gemini AI:
-1. Click the **Settings (gear icon)** in the top navigation bar.
-2. Enter your **Google Gemini API Key**.
-3. The system will use Gemini 2.5 Flash for advanced structured extraction and summary synthesis while strictly maintaining source reference range validation and provenance citations.
+### 5. Emergency Ambulance Dispatch & Live Telemetry Tracker
+- High-priority ACLS ambulance request by emergency condition (Cardiac Chest Pain, Severe Respiratory Distress, Stroke, Trauma).
+- Pickup address with **"📍 Auto-Fill Current Location"** GPS coordinate pinpointing.
+- Real-time dispatch telemetry panel with progress tracker (`1. Dispatched` ➔ `2. En Route` ➔ `3. Arrived`), live ETA countdown, vehicle unit telemetry, paramedic team contact, and direct **911 / 112 hotline** speed dial.
 
 ---
 
 ## 🧪 Running Automated Tests
 
-Run the automated test suite with:
+Run the complete 24-test automated test suite:
 
 ```bash
-python -m unittest test_app.py -v
+python -m unittest -v test_app.py test_platform.py
+```
+
+### Validation Output:
+```
+Ran 24 tests in 0.342s
+OK (100% Passed)
+```
+
+---
+
+## 📁 Repository Structure
+
+```
+Medical AI Agent/
+├── app.py                     # Unified FastAPI REST backend & static asset server
+├── models.py                  # Pydantic schemas (Patient, LabResult, User, Bookings, Ambulance, Pharmacy)
+├── pharmacy.py                # Medication catalog, intent parser & auto-redirection engine
+├── extractor.py               # PDF parser (pypdf), regex clinical NLP, ref-range evaluator
+├── summarizer.py              # Patient-friendly summary generator with clinical safety guardrails
+├── storage.py                 # Persistent JSON store with preloaded cases, users, and orders
+├── samples.py                 # Synthetic clinical datasets & sample lab reports
+├── test_app.py                # Core intake & lab parser test suite (8 tests)
+├── test_platform.py           # Integration test suite: Auth, Bookings, Ambulance, Pharmacy (16 tests)
+├── start_app.bat              # 1-Click Windows launch script
+├── requirements.txt           # Python dependencies
+├── data/                      # Persistent storage JSON records
+├── sample_reports/            # Ready-to-use sample lab PDF documents
+│   ├── Metabolic_Panel_Vance.pdf
+│   ├── Cardio_Lipid_Panel_Thorne.pdf
+│   └── CBC_Iron_Study_Chen.pdf
+└── static/
+    ├── index.html             # Responsive clinical portal UI (Tailwind CSS, Lucide Icons)
+    ├── app.js                 # Frontend state, chat triage, pharmacy redirect & booking logic
+    └── style.css              # Custom styling, siren animations, provenance badges, print styles
 ```
