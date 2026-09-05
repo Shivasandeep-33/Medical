@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediCure AI — Clinical Disease Diagnostic & Triage Agent</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="agent.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              400: '#2dd4bf',
+              500: '#14b8a6',
+              600: '#0d9488',
+              700: '#0f766e',
+            },
+            accent: {
+              50: '#f0f9ff',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-teal-500 selection:text-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-slate-900/80 backdrop-blur-xl border-b border-slate-800/80 no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        
+        <!-- Brand & Logo -->
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-500 via-sky-500 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-teal-500/25">
+            <i data-lucide="cross" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-teal-300 via-sky-300 to-indigo-200 bg-clip-text text-transparent">MediCure<span class="text-teal-400">AI</span></span>
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-teal-950 text-teal-300 border border-teal-800/60">Triage Agent v2.0</span>
+            </div>
+            <p class="text-[11px] text-slate-400 hidden sm:block">AI Clinical Disease Rectification & Probabilistic Diagnostic Intelligence</p>
+          </div>
+        </div>
+
+        <!-- Navigation & Quick Actions -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- View Toggle: Analyzer vs Live Chat -->
+          <div class="flex items-center bg-slate-800/90 rounded-lg p-1 border border-slate-700/60 text-xs font-semibold">
+            <button id="btnTabAnalyzer" onclick="switchMainView('analyzer')" class="px-3 py-1.5 rounded-md bg-teal-600 text-white shadow-xs transition flex items-center gap-1.5">
+              <i data-lucide="activity" class="w-3.5 h-3.5"></i>
+              <span class="hidden sm:inline">Diagnostic Analyzer</span>
+            </button>
+            <button id="btnTabChat" onclick="switchMainView('chat')" class="px-3 py-1.5 rounded-md text-slate-400 hover:text-slate-200 transition flex items-center gap-1.5">
+              <i data-lucide="bot" class="w-3.5 h-3.5"></i>
+              <span>AI Doctor Chat</span>
+            </button>
+          </div>
+
+          <!-- 1-Click Scenarios -->
+          <button onclick="openModal('scenariosModal')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-amber-950/60 text-amber-300 border border-amber-800/50 hover:bg-amber-900/40 transition">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
+            <span class="hidden md:inline">Test Scenarios</span>
+          </button>
+
+          <!-- Print / Export Report -->
+          <button onclick="window.print()" title="Print Clinical Report" class="p-2 rounded-lg text-slate-400 hover:text-slate-100 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/60 transition">
+            <i data-lucide="printer" class="w-4 h-4"></i>
+          </button>
+
+          <!-- Settings -->
+          <button onclick="openModal('settingsModal')" title="Settings & API Key" class="p-2 rounded-lg text-slate-400 hover:text-slate-100 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/60 transition">
+            <i data-lucide="settings" class="w-4 h-4"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Emergency Quick Bar (Hidden by default unless red flag) -->
+  <div id="emergencyBar" class="hidden bg-rose-950 border-b border-rose-800/80 px-4 py-3 text-xs text-rose-200 no-print animate-emergency">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <i data-lucide="alert-triangle" class="w-5 h-5 text-rose-400 shrink-0"></i>
+        <span id="emergencyBarText" class="font-bold">CRITICAL EMERGENCY DETECTED: Symptoms suggest urgent care needed.</span>
+      </div>
+      <span class="px-2.5 py-1 rounded bg-rose-900 text-rose-100 font-bold uppercase tracking-wider text-[10px]">Call 911 / 112</span>
+    </div>
+  </div>
+
+  <!-- Main Content Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+
+    <!-- ========================================================================= -->
+    <!-- VIEW A: DIAGNOSTIC ANALYZER (Interactive Body Map & Disease Rectification) -->
+    <!-- ========================================================================= -->
+    <div id="viewAnalyzer" class="space-y-6">
+      
+      <!-- Top Banner / Headline -->
+      <div class="glass-panel rounded-2xl p-6 relative overflow-hidden">
+        <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-white flex items-center gap-3">
+              <span>Symptom-to-Disease Rectification Engine</span>
+              <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-sky-950 text-sky-300 border border-sky-800/60">Clinical Inference</span>
+            </h1>
+            <p class="text-sm text-slate-400 mt-1 max-w-2xl">
+              Select your symptoms by anatomical region or describe your condition in plain words. The clinical agent evaluates 60+ disease profiles, calculates confidence scores, identifies red flags, and prescribes next steps.
+            </p>
+          </div>
+          <!-- Selected count badge -->
+          <div class="flex items-center gap-2 bg-slate-900/80 px-4 py-2.5 rounded-xl border border-slate-800">
+            <span class="text-xs text-slate-400">Selected Symptoms:</span>
+            <span id="activeSymptomsCount" class="text-base font-extrabold text-teal-400">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Two-Column Layout: Input (Left) vs Diagnostic Results (Right) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+        <!-- LEFT: Symptom Selection & Narrative (5 cols) -->
+        <div class="lg:col-span-5 space-y-5">
+
+          <!-- Free-text narrative box -->
+          <div class="glass-card rounded-2xl p-5 space-y-3">
+            <div class="flex items-center justify-between">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
+                <i data-lucide="message-square" class="w-4 h-4 text-teal-400"></i>
+                Describe Your Symptoms in Plain English
+              </label>
+              <button type="button" onclick="clearNarrative()" class="text-[11px] text-slate-500 hover:text-slate-300">Clear</button>
+            </div>
+            <textarea id="narrativeInput" rows="4" class="w-full bg-slate-900/90 border border-slate-700/70 rounded-xl p-3 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-500 font-sans" placeholder="e.g., I have had a high fever (102°F), dry cough, severe body aches, and fatigue for 2 days..."></textarea>
+            
+            <!-- Demographics context -->
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 mb-1">Patient Age</label>
+                <input type="number" id="patientAgeInput" min="1" max="120" placeholder="e.g. 35" class="w-full bg-slate-900/90 border border-slate-700/70 rounded-lg px-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:ring-1 focus:ring-teal-500">
+              </div>
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 mb-1">Biological Sex</label>
+                <select id="patientSexInput" class="w-full bg-slate-900/90 border border-slate-700/70 rounded-lg px-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:ring-1 focus:ring-teal-500">
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                  <option value="Other">Other / Unspecified</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Anatomical Body System Tabs & Symptom Tag Selector -->
+          <div class="glass-card rounded-2xl p-5 space-y-4">
+            <div class="flex items-center justify-between">
+              <label class="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
+                <i data-lucide="layers" class="w-4 h-4 text-sky-400"></i>
+                Interactive Anatomical Region Selector
+              </label>
+              <button type="button" onclick="deselectAllSymptoms()" class="text-[11px] text-teal-400 hover:text-teal-300 font-medium">Reset All</button>
+            </div>
+
+            <!-- Body Region Category Pills -->
+            <div id="categoryTabsContainer" class="flex flex-wrap gap-1.5 border-b border-slate-800 pb-3">
+              <!-- Dynamically populated category buttons -->
+            </div>
+
+            <!-- Active Category Symptoms List -->
+            <div id="symptomsPillsContainer" class="flex flex-wrap gap-2 max-h-[300px] overflow-y-auto pr-1 py-1">
+              <!-- Dynamically populated symptom clickable tags -->
+            </div>
+          </div>
+
+          <!-- Action Button: Analyze & Rectify Disease -->
+          <button type="button" id="btnAnalyze" onclick="performDiagnosticAnalysis()" class="w-full py-3.5 px-6 rounded-xl font-extrabold text-sm text-white bg-gradient-to-r from-teal-500 via-sky-500 to-indigo-600 hover:from-teal-400 hover:via-sky-400 hover:to-indigo-500 shadow-lg shadow-teal-500/25 transition flex items-center justify-center gap-2 transform active:scale-98">
+            <i data-lucide="zap" class="w-4 h-4"></i>
+            <span>Analyze Symptoms & Rectify Disease</span>
+          </button>
+
+        </div>
+
+        <!-- RIGHT: Diagnostic Inference & Triage Results (7 cols) -->
+        <div class="lg:col-span-7 space-y-5">
+
+          <!-- Triage Urgency Header Card -->
+          <div id="triageBanner" class="glass-panel rounded-2xl p-5 border-l-4 border-teal-500 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Clinical Triage Evaluation</span>
+              <div class="flex items-center gap-2.5 mt-0.5">
+                <span id="triageIndicatorBadge" class="px-2.5 py-1 rounded-full text-xs font-black uppercase bg-teal-950 text-teal-300 border border-teal-700">
+                  Ready for Assessment
+                </span>
+                <span id="triageSubtitle" class="text-xs text-slate-300">Select symptoms or enter description on the left to begin.</span>
+              </div>
+            </div>
+
+            <div id="detectedSymptomsRow" class="flex flex-wrap gap-1.5 max-w-sm">
+              <!-- Dynamically rendered detected symptom tags -->
+            </div>
+          </div>
+
+          <!-- Emergency Red Flag Alert Container (Rendered if red flag detected) -->
+          <div id="redFlagAlertContainer" class="hidden space-y-2">
+            <!-- Dynamically populated emergency warning cards -->
+          </div>
+
+          <!-- Top Probable Diseases (Ranked by Confidence Match) -->
+          <div class="glass-panel rounded-2xl p-6 space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-800/80 pb-3">
+              <h2 class="text-base font-bold text-white flex items-center gap-2">
+                <i data-lucide="stethoscope" class="w-5 h-5 text-teal-400"></i>
+                Identified Conditions & Differential Diagnosis
+              </h2>
+              <span class="text-xs text-slate-400">Sorted by Probabilistic Match</span>
+            </div>
+
+            <div id="diagnosticResultsList" class="space-y-4">
+              <!-- Empty state placeholder -->
+              <div class="text-center py-12 text-slate-500 text-xs">
+                <i data-lucide="activity" class="w-8 h-8 mx-auto mb-2 text-slate-600 opacity-60"></i>
+                No symptoms analyzed yet. Click any symptoms on the left or enter your symptoms to see matching diseases.
+              </div>
+            </div>
+          </div>
+
+          <!-- Next Steps: Recommended Specialist & Diagnostic Tests -->
+          <div id="nextStepsPanel" class="hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Recommended Specialists -->
+            <div class="glass-card rounded-xl p-4 space-y-2">
+              <span class="text-xs font-bold text-sky-400 uppercase tracking-wider flex items-center gap-1.5">
+                <i data-lucide="user-check" class="w-3.5 h-3.5"></i>
+                Consulting Specialists
+              </span>
+              <ul id="recommendedSpecialistsList" class="text-xs text-slate-300 space-y-1">
+                <!-- Dynamically populated -->
+              </ul>
+            </div>
+
+            <!-- Recommended Clinical Investigations -->
+            <div class="glass-card rounded-xl p-4 space-y-2">
+              <span class="text-xs font-bold text-teal-400 uppercase tracking-wider flex items-center gap-1.5">
+                <i data-lucide="clipboard" class="w-3.5 h-3.5"></i>
+                Standard Medical Tests
+              </span>
+              <ul id="recommendedTestsList" class="text-xs text-slate-300 space-y-1">
+                <!-- Dynamically populated -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Medical Disclaimer -->
+          <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-[11px] text-slate-400 flex items-start gap-3">
+            <i data-lucide="shield" class="w-4 h-4 text-slate-500 shrink-0 mt-0.5"></i>
+            <p>
+              <strong>Clinical Advisory:</strong> MediCure AI provides automated differential analysis and health education. It is not an in-person physical examination. For persistent or worsening symptoms, consult your primary care doctor or emergency medical service.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- VIEW B: AI DOCTOR LIVE CONVERSATIONAL CHAT -->
+    <!-- ========================================================================= -->
+    <div id="viewChat" class="hidden space-y-6">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+        <!-- Left: Chat Stream & Input (8 cols) -->
+        <div class="lg:col-span-8 glass-panel rounded-2xl flex flex-col h-[75vh] overflow-hidden">
+          
+          <!-- Chat Header -->
+          <div class="p-4 border-b border-slate-800/80 bg-slate-900/60 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="relative">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-teal-500 to-sky-600 flex items-center justify-center text-white font-bold">
+                  <i data-lucide="bot" class="w-5 h-5"></i>
+                </div>
+                <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-slate-900"></span>
+              </div>
+              <div>
+                <h3 class="text-sm font-bold text-white">Dr. Clara (AI Clinical Triage Agent)</h3>
+                <span id="chatEngineLabel" class="text-[11px] text-teal-400 font-medium">Dual-Engine Clinical AI Online</span>
+              </div>
+            </div>
+            
+            <button onclick="clearChatHistory()" class="text-xs text-slate-400 hover:text-slate-200 px-2.5 py-1 rounded bg-slate-800 border border-slate-700/50">
+              Clear Chat
+            </button>
+          </div>
+
+          <!-- Message Stream -->
+          <div id="chatMessages" class="flex-1 p-4 overflow-y-auto space-y-4">
+            <!-- Dr. Clara Greeting -->
+            <div class="flex items-start gap-3">
+              <div class="w-8 h-8 rounded-full bg-teal-600 flex items-center justify-center text-white shrink-0">
+                <i data-lucide="bot" class="w-4 h-4"></i>
+              </div>
+              <div class="bg-slate-800/80 border border-slate-700/60 rounded-2xl rounded-tl-none p-3.5 text-xs text-slate-200 max-w-xl space-y-2">
+                <p>Hello! I am Dr. Clara, your AI Clinical Triage Agent. I can help you evaluate your symptoms, identify likely conditions, assess urgency levels, and advise you which medical specialist to consult.</p>
+                <p class="text-slate-400">What symptoms have you been noticing, and how long have they been present?</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Suggestion Chips -->
+          <div class="px-4 py-2 bg-slate-900/40 border-t border-slate-800/60 flex flex-wrap gap-2 text-[11px]">
+            <span class="text-slate-500 font-semibold py-1">Try asking:</span>
+            <button onclick="sendQuickPrompt('I have had high fever, body aches, and cough for 2 days.')" class="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700/50 transition">Fever & Body Aches</button>
+            <button onclick="sendQuickPrompt('Sudden sharp chest tightness and shortness of breath.')" class="px-2.5 py-1 rounded-full bg-rose-950/70 hover:bg-rose-900 text-rose-300 border border-rose-800/50 transition">Chest Tightness</button>
+            <button onclick="sendQuickPrompt('Throbbing one-sided headache with severe nausea.')" class="px-2.5 py-1 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700/50 transition">Throbbing Headache</button>
+          </div>
+
+          <!-- Chat Input Bar -->
+          <form id="chatForm" onsubmit="handleChatSubmit(event)" class="p-3 bg-slate-900/80 border-t border-slate-800/80 flex items-center gap-2">
+            <input type="text" id="chatInput" autocomplete="off" placeholder="Describe your symptoms in your own words..." class="flex-1 bg-slate-800/80 border border-slate-700/60 rounded-xl px-4 py-2.5 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-teal-500">
+            <button type="submit" id="btnSendChat" class="px-4 py-2.5 bg-teal-600 hover:bg-teal-500 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-md shadow-teal-600/20">
+              <span>Send</span>
+              <i data-lucide="send" class="w-3.5 h-3.5"></i>
+            </button>
+          </form>
+
+        </div>
+
+        <!-- Right: Live Mini Clinical Diagnostic Card (4 cols) -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="glass-panel rounded-2xl p-5 space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+              <h4 class="text-xs font-bold text-white uppercase tracking-wider flex items-center gap-1.5">
+                <i data-lucide="activity" class="w-4 h-4 text-teal-400"></i>
+                Live Diagnostic Summary
+              </h4>
+              <span id="chatTriageBadge" class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">
+                Listening...
+              </span>
+            </div>
+
+            <!-- Detected Symptoms in chat -->
+            <div>
+              <span class="text-[11px] font-semibold text-slate-400 block mb-1.5">Symptoms Detected in Conversation:</span>
+              <div id="chatDetectedSymptoms" class="flex flex-wrap gap-1 text-xs">
+                <span class="text-slate-500 italic text-[11px]">None yet</span>
+              </div>
+            </div>
+
+            <!-- Mini Matches -->
+            <div>
+              <span class="text-[11px] font-semibold text-slate-400 block mb-2">Probable Conditions:</span>
+              <div id="chatMiniMatches" class="space-y-2 text-xs">
+                <span class="text-slate-500 italic text-[11px]">Chat with Dr. Clara to generate real-time matches.</span>
+              </div>
+            </div>
+
+            <button onclick="switchMainView('analyzer')" class="w-full py-2 px-3 text-xs font-semibold text-teal-300 bg-teal-950/60 hover:bg-teal-900/60 border border-teal-800/60 rounded-xl transition flex items-center justify-center gap-1.5">
+              <span>View Full Diagnostic Breakdown</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: QUICK TEST SCENARIOS (1-Click Load) -->
+  <!-- ========================================================================= -->
+  <div id="scenariosModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="glass-panel bg-slate-900 rounded-2xl max-w-2xl w-full p-6 relative border border-slate-800 shadow-2xl">
+      <button onclick="closeModal('scenariosModal')" class="absolute top-4 right-4 text-slate-400 hover:text-slate-200">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex items-center gap-2.5 mb-2">
+        <div class="w-8 h-8 rounded-lg bg-amber-950 text-amber-400 flex items-center justify-center">
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+        </div>
+        <h3 class="text-lg font-bold text-white">1-Click Clinical Test Scenarios</h3>
+      </div>
+      <p class="text-xs text-slate-400 mb-4">
+        Select a real-world clinical scenario to automatically populate symptoms and run instant differential analysis.
+      </p>
+
+      <div id="scenariosList" class="space-y-3">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MODAL: SYSTEM & AI SETTINGS -->
+  <!-- ========================================================================= -->
+  <div id="settingsModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="glass-panel bg-slate-900 rounded-2xl max-w-md w-full p-6 relative border border-slate-800 shadow-2xl">
+      <button onclick="closeModal('settingsModal')" class="absolute top-4 right-4 text-slate-400 hover:text-slate-200">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex items-center gap-2.5 mb-2">
+        <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center">
+          <i data-lucide="settings" class="w-4 h-4"></i>
+        </div>
+        <h3 class="text-lg font-bold text-white">System & AI Settings</h3>
+      </div>
+      <p class="text-xs text-slate-400 mb-4">
+        Optionally configure your Google Gemini API key for conversational AI Doctor capabilities.
+      </p>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1">Google Gemini API Key (Optional)</label>
+          <input type="password" id="geminiKeyInput" placeholder="AIzaSy..." class="w-full bg-slate-800/90 border border-slate-700 rounded-lg px-3 py-2 text-xs font-mono text-slate-100 focus:outline-none focus:ring-1 focus:ring-teal-500">
+          <p class="text-[11px] text-slate-400 mt-1">If empty, the built-in clinical diagnostic inference engine runs offline 100% free.</p>
+        </div>
+
+        <div class="p-3 bg-slate-800/60 rounded-xl border border-slate-700/60 text-xs text-slate-300 space-y-1">
+          <div class="font-bold text-teal-400 flex items-center gap-1">
+            <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+            Offline Medical Knowledge Graph
+          </div>
+          <p class="text-[11px] text-slate-400">
+            MediCure AI includes a clinical knowledge base of 60+ diseases, triage rules, red-flag emergency detectors, and home care recommendations that execute locally.
+          </p>
+        </div>
+
+        <div class="flex justify-end gap-2 pt-2">
+          <button onclick="closeModal('settingsModal')" class="px-3 py-1.5 text-xs text-slate-400 hover:text-slate-200 bg-slate-800 rounded-lg">Cancel</button>
+          <button onclick="saveAgentSettings()" class="px-4 py-1.5 text-xs font-bold text-white bg-teal-600 hover:bg-teal-500 rounded-lg">Save Settings</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="agent.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>

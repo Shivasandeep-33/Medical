@@ -1,0 +1,2770 @@
+{
+  "pt-10482": {
+    "record_id": "pt-10482",
+    "patient": {
+      "patient_id": "PT-10482",
+      "full_name": "Eleanor Vance",
+      "age": 54,
+      "sex": "Female",
+      "dob": "1972-04-18",
+      "blood_type": "A+",
+      "contact_phone": "+1 (555) 234-8901",
+      "emergency_contact": "David Vance (Spouse) - +1 (555) 234-8902",
+      "symptoms": [
+        {
+          "name": "Persistent daytime fatigue",
+          "severity": "Moderate",
+          "duration": "3 weeks",
+          "notes": "Worse in late afternoons",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Increased thirst (polydipsia)",
+          "severity": "Mild",
+          "duration": "1 month",
+          "notes": "Drinking > 3L water daily",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Mild blurred vision",
+          "severity": "Mild",
+          "duration": "10 days",
+          "notes": "Occasional screen reading difficulty",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "existing_conditions": [
+        {
+          "condition_name": "Type 2 Diabetes Mellitus",
+          "diagnosed_year_or_date": "2019",
+          "status": "Active",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "condition_name": "Essential Hypertension",
+          "diagnosed_year_or_date": "2017",
+          "status": "Active",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Sulfa drugs",
+          "reaction": "Cutaneous maculopapular rash",
+          "severity": "Moderate",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "allergen": "Latex",
+          "reaction": "Contact dermatitis",
+          "severity": "Mild",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "medications": [
+        {
+          "name": "Metformin",
+          "dosage": "850 mg",
+          "frequency": "Twice daily with meals",
+          "purpose": "Glycemic control",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Lisinopril",
+          "dosage": "10 mg",
+          "frequency": "Once daily in morning",
+          "purpose": "Blood pressure management",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Omega-3 Fish Oil",
+          "dosage": "1000 mg",
+          "frequency": "Once daily",
+          "purpose": "General heart wellness",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "surgical_history": [
+        "Laparoscopic cholecystectomy (2015)"
+      ],
+      "lifestyle_notes": "Sedentary desk job, walks 20 minutes on weekends. Non-smoker, occasional social wine.",
+      "last_updated": "2026-09-05 12:35:06",
+      "provenance": {
+        "source_type": "User Provided",
+        "source_name": "Patient Intake Form",
+        "snippet": null,
+        "page_number": null,
+        "extracted_at": "2026-09-05 12:35:06"
+      }
+    },
+    "reports": [
+      {
+        "report_id": "c5e88afd",
+        "filename": "Metabolic_Panel_Vance.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 12:35:06",
+        "report_date": "09/02/2026",
+        "facility_or_doctor": "reference range in this automated run.",
+        "extracted_tests": [
+          {
+            "id": "71fc540a",
+            "test_name": "Director",
+            "category": "Diagnostic Lab",
+            "value": "Arthur",
+            "numeric_value": null,
+            "unit": "",
+            "reference_range_raw": "Not specified in report",
+            "ref_low": null,
+            "ref_high": null,
+            "ref_textual": null,
+            "status": "UNSPECIFIED",
+            "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Director: Arthur Pendelton, MD, FCAP",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "c30bff03",
+            "test_name": "Fasting Blood Glucose",
+            "category": "Metabolic Panel",
+            "value": "142",
+            "numeric_value": 142.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "70 - 99",
+            "ref_low": 70.0,
+            "ref_high": 99.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 142.0 is above source reference range (70.0 - 99.0 mg/dL).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Fasting Blood Glucose        142      mg/dL      70 - 99              HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "4bff9499",
+            "test_name": "Hemoglobin A1c",
+            "category": "Hematology",
+            "value": "7.4",
+            "numeric_value": 7.4,
+            "unit": "%",
+            "reference_range_raw": "4.0 - 5.6",
+            "ref_low": 4.0,
+            "ref_high": 5.6,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 7.4 is above source reference range (4.0 - 5.6 %).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Hemoglobin A1c               7.4      %          4.0 - 5.6            HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "9d55cb30",
+            "test_name": "Serum Creatinine",
+            "category": "Renal Function",
+            "value": "0.9",
+            "numeric_value": 0.9,
+            "unit": "mg/dL",
+            "reference_range_raw": "0.6 - 1.2",
+            "ref_low": 0.6,
+            "ref_high": 1.2,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 0.9 is within source reference range (0.6 - 1.2 mg/dL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Serum Creatinine             0.9      mg/dL      0.6 - 1.2            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "61082161",
+            "test_name": "Blood Urea Nitrogen (BUN)",
+            "category": "Renal Function",
+            "value": "16",
+            "numeric_value": 16.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "7 - 20",
+            "ref_low": 7.0,
+            "ref_high": 20.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 16.0 is within source reference range (7.0 - 20.0 mg/dL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Blood Urea Nitrogen (BUN)    16       mg/dL      7 - 20               Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "fd753827",
+            "test_name": "eGFR Non-African American",
+            "category": "Renal Function",
+            "value": "88",
+            "numeric_value": 88.0,
+            "unit": "",
+            "reference_range_raw": "Normal",
+            "ref_low": null,
+            "ref_high": null,
+            "ref_textual": "Normal",
+            "status": "INCONCLUSIVE",
+            "status_reason": "Result could not be automatically evaluated against non-numeric reference range.",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "eGFR Non-African American    88       mL/min     > 60                 Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "c3a83863",
+            "test_name": "Sodium",
+            "category": "Electrolytes",
+            "value": "139",
+            "numeric_value": 139.0,
+            "unit": "mEq/L",
+            "reference_range_raw": "135 - 145",
+            "ref_low": 135.0,
+            "ref_high": 145.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 139.0 is within source reference range (135.0 - 145.0 mEq/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Sodium                       139      mEq/L      135 - 145            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "e5644f58",
+            "test_name": "Potassium",
+            "category": "Electrolytes",
+            "value": "4.4",
+            "numeric_value": 4.4,
+            "unit": "mEq/L",
+            "reference_range_raw": "3.5 - 5.1",
+            "ref_low": 3.5,
+            "ref_high": 5.1,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 4.4 is within source reference range (3.5 - 5.1 mEq/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Potassium                    4.4      mEq/L      3.5 - 5.1            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "4580be82",
+            "test_name": "Chloride",
+            "category": "Electrolytes",
+            "value": "102",
+            "numeric_value": 102.0,
+            "unit": "mEq/L",
+            "reference_range_raw": "96 - 106",
+            "ref_low": 96.0,
+            "ref_high": 106.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 102.0 is within source reference range (96.0 - 106.0 mEq/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Chloride                     102      mEq/L      96 - 106             Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "adf8ea7a",
+            "test_name": "Carbon Dioxide (CO2)",
+            "category": "Electrolytes",
+            "value": "24",
+            "numeric_value": 24.0,
+            "unit": "mEq/L",
+            "reference_range_raw": "22 - 29",
+            "ref_low": 22.0,
+            "ref_high": 29.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 24.0 is within source reference range (22.0 - 29.0 mEq/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Carbon Dioxide (CO2)         24       mEq/L      22 - 29              Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "6c4125b9",
+            "test_name": "Serum Calcium",
+            "category": "Metabolic Panel",
+            "value": "9.4",
+            "numeric_value": 9.4,
+            "unit": "mg/dL",
+            "reference_range_raw": "8.5 - 10.2",
+            "ref_low": 8.5,
+            "ref_high": 10.2,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 9.4 is within source reference range (8.5 - 10.2 mg/dL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Serum Calcium                9.4      mg/dL      8.5 - 10.2           Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "4a0135ce",
+            "test_name": "Total Protein",
+            "category": "Hepatic Panel",
+            "value": "7.1",
+            "numeric_value": 7.1,
+            "unit": "g/dL",
+            "reference_range_raw": "6.0 - 8.3",
+            "ref_low": 6.0,
+            "ref_high": 8.3,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 7.1 is within source reference range (6.0 - 8.3 g/dL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Total Protein                7.1      g/dL       6.0 - 8.3            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "2d8bbfed",
+            "test_name": "Serum Albumin",
+            "category": "Hepatic Panel",
+            "value": "4.3",
+            "numeric_value": 4.3,
+            "unit": "g/dL",
+            "reference_range_raw": "3.5 - 5.0",
+            "ref_low": 3.5,
+            "ref_high": 5.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 4.3 is within source reference range (3.5 - 5.0 g/dL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Serum Albumin                4.3      g/dL       3.5 - 5.0            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "97f197bf",
+            "test_name": "Total Bilirubin",
+            "category": "Hepatic Panel",
+            "value": "0.7",
+            "numeric_value": 0.7,
+            "unit": "mg/dL",
+            "reference_range_raw": "0.2 - 1.2",
+            "ref_low": 0.2,
+            "ref_high": 1.2,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 0.7 is within source reference range (0.2 - 1.2 mg/dL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Total Bilirubin              0.7      mg/dL      0.2 - 1.2            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "cb052001",
+            "test_name": "Alkaline Phosphatase",
+            "category": "Hepatic Panel",
+            "value": "78",
+            "numeric_value": 78.0,
+            "unit": "U/L",
+            "reference_range_raw": "44 - 121",
+            "ref_low": 44.0,
+            "ref_high": 121.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 78.0 is within source reference range (44.0 - 121.0 U/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Alkaline Phosphatase         78       U/L        44 - 121             Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "b21b37cd",
+            "test_name": "ALT (SGPT)",
+            "category": "Hepatic Panel",
+            "value": "28",
+            "numeric_value": 28.0,
+            "unit": "U/L",
+            "reference_range_raw": "7 - 35",
+            "ref_low": 7.0,
+            "ref_high": 35.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 28.0 is within source reference range (7.0 - 35.0 U/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "ALT (SGPT)                   28       U/L        7 - 35               Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "10b1160f",
+            "test_name": "AST (SGOT)",
+            "category": "Hepatic Panel",
+            "value": "24",
+            "numeric_value": 24.0,
+            "unit": "U/L",
+            "reference_range_raw": "8 - 35",
+            "ref_low": 8.0,
+            "ref_high": 35.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 24.0 is within source reference range (8.0 - 35.0 U/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "AST (SGOT)                   24       U/L        8 - 35               Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "e9200c40",
+            "test_name": "Random Urine Protein",
+            "category": "Urinalysis",
+            "value": "18",
+            "numeric_value": 18.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "Not specified in report",
+            "ref_low": null,
+            "ref_high": null,
+            "ref_textual": null,
+            "status": "UNSPECIFIED",
+            "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Metabolic_Panel_Vance.txt",
+              "snippet": "Random Urine Protein         18       mg/dL                           [Pending range verification]",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          }
+        ],
+        "raw_text_preview": "METROPOLITAN DIAGNOSTIC LABORATORIES\nClinical Chemistry & Endocrinology Division\nAccredited CAP / CLIA # 99D0872134\nDirector: Arthur Pendelton, MD, FCAP\n\nPATIENT INFORMATION:\nPatient Name: Eleanor Vance\nDOB: 04/18/1972 (Age: 54)     Sex: Female\nMRN: 88471923               Date of Service: 09/02/2026\nOrdering Physician: Dr. Marcus Sterling, MD (Endocrinology)\n\n=========================================================================================\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL   STATUS / FLAG\n=========================================================================================\nFasting Blood Glucose        142      mg/dL      70 - 99              HIGH\nHemoglobin A1c               7.4      %          4.0 - 5.6            HIGH\nSerum Creatinine             0.9      mg/dL      0.6 - 1.2            Normal\nBlood Urea Nitrogen (BUN)    16       mg/dL      7 - 20               Normal\neGFR Non-African American    88       mL/min     > 60                 Normal\nSodium                       139      mEq/L      135 - 145            Normal\nPotassium                    4.4      mEq/L      3.5 - 5.1            Normal\nChloride                     102      mEq/L      96 - 106             Normal\nCarbon Dioxide (CO2)         24       mEq/L      22 - 29              Normal\nSerum Calcium                9.4      mg/dL      8.5 - 10.2           Normal\nTotal Protein                7.1      g/dL       6.0 - 8.3            Normal\nSerum Albumin                4.",
+        "extraction_method": "Deterministic Clinical NLP"
+      }
+    ],
+    "all_lab_results": [
+      {
+        "id": "71fc540a",
+        "test_name": "Director",
+        "category": "Diagnostic Lab",
+        "value": "Arthur",
+        "numeric_value": null,
+        "unit": "",
+        "reference_range_raw": "Not specified in report",
+        "ref_low": null,
+        "ref_high": null,
+        "ref_textual": null,
+        "status": "UNSPECIFIED",
+        "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Director: Arthur Pendelton, MD, FCAP",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "c30bff03",
+        "test_name": "Fasting Blood Glucose",
+        "category": "Metabolic Panel",
+        "value": "142",
+        "numeric_value": 142.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "70 - 99",
+        "ref_low": 70.0,
+        "ref_high": 99.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 142.0 is above source reference range (70.0 - 99.0 mg/dL).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Fasting Blood Glucose        142      mg/dL      70 - 99              HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "4bff9499",
+        "test_name": "Hemoglobin A1c",
+        "category": "Hematology",
+        "value": "7.4",
+        "numeric_value": 7.4,
+        "unit": "%",
+        "reference_range_raw": "4.0 - 5.6",
+        "ref_low": 4.0,
+        "ref_high": 5.6,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 7.4 is above source reference range (4.0 - 5.6 %).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Hemoglobin A1c               7.4      %          4.0 - 5.6            HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "9d55cb30",
+        "test_name": "Serum Creatinine",
+        "category": "Renal Function",
+        "value": "0.9",
+        "numeric_value": 0.9,
+        "unit": "mg/dL",
+        "reference_range_raw": "0.6 - 1.2",
+        "ref_low": 0.6,
+        "ref_high": 1.2,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 0.9 is within source reference range (0.6 - 1.2 mg/dL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Serum Creatinine             0.9      mg/dL      0.6 - 1.2            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "61082161",
+        "test_name": "Blood Urea Nitrogen (BUN)",
+        "category": "Renal Function",
+        "value": "16",
+        "numeric_value": 16.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "7 - 20",
+        "ref_low": 7.0,
+        "ref_high": 20.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 16.0 is within source reference range (7.0 - 20.0 mg/dL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Blood Urea Nitrogen (BUN)    16       mg/dL      7 - 20               Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "fd753827",
+        "test_name": "eGFR Non-African American",
+        "category": "Renal Function",
+        "value": "88",
+        "numeric_value": 88.0,
+        "unit": "",
+        "reference_range_raw": "Normal",
+        "ref_low": null,
+        "ref_high": null,
+        "ref_textual": "Normal",
+        "status": "INCONCLUSIVE",
+        "status_reason": "Result could not be automatically evaluated against non-numeric reference range.",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "eGFR Non-African American    88       mL/min     > 60                 Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "c3a83863",
+        "test_name": "Sodium",
+        "category": "Electrolytes",
+        "value": "139",
+        "numeric_value": 139.0,
+        "unit": "mEq/L",
+        "reference_range_raw": "135 - 145",
+        "ref_low": 135.0,
+        "ref_high": 145.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 139.0 is within source reference range (135.0 - 145.0 mEq/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Sodium                       139      mEq/L      135 - 145            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "e5644f58",
+        "test_name": "Potassium",
+        "category": "Electrolytes",
+        "value": "4.4",
+        "numeric_value": 4.4,
+        "unit": "mEq/L",
+        "reference_range_raw": "3.5 - 5.1",
+        "ref_low": 3.5,
+        "ref_high": 5.1,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 4.4 is within source reference range (3.5 - 5.1 mEq/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Potassium                    4.4      mEq/L      3.5 - 5.1            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "4580be82",
+        "test_name": "Chloride",
+        "category": "Electrolytes",
+        "value": "102",
+        "numeric_value": 102.0,
+        "unit": "mEq/L",
+        "reference_range_raw": "96 - 106",
+        "ref_low": 96.0,
+        "ref_high": 106.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 102.0 is within source reference range (96.0 - 106.0 mEq/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Chloride                     102      mEq/L      96 - 106             Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "adf8ea7a",
+        "test_name": "Carbon Dioxide (CO2)",
+        "category": "Electrolytes",
+        "value": "24",
+        "numeric_value": 24.0,
+        "unit": "mEq/L",
+        "reference_range_raw": "22 - 29",
+        "ref_low": 22.0,
+        "ref_high": 29.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 24.0 is within source reference range (22.0 - 29.0 mEq/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Carbon Dioxide (CO2)         24       mEq/L      22 - 29              Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "6c4125b9",
+        "test_name": "Serum Calcium",
+        "category": "Metabolic Panel",
+        "value": "9.4",
+        "numeric_value": 9.4,
+        "unit": "mg/dL",
+        "reference_range_raw": "8.5 - 10.2",
+        "ref_low": 8.5,
+        "ref_high": 10.2,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 9.4 is within source reference range (8.5 - 10.2 mg/dL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Serum Calcium                9.4      mg/dL      8.5 - 10.2           Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "4a0135ce",
+        "test_name": "Total Protein",
+        "category": "Hepatic Panel",
+        "value": "7.1",
+        "numeric_value": 7.1,
+        "unit": "g/dL",
+        "reference_range_raw": "6.0 - 8.3",
+        "ref_low": 6.0,
+        "ref_high": 8.3,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 7.1 is within source reference range (6.0 - 8.3 g/dL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Total Protein                7.1      g/dL       6.0 - 8.3            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "2d8bbfed",
+        "test_name": "Serum Albumin",
+        "category": "Hepatic Panel",
+        "value": "4.3",
+        "numeric_value": 4.3,
+        "unit": "g/dL",
+        "reference_range_raw": "3.5 - 5.0",
+        "ref_low": 3.5,
+        "ref_high": 5.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 4.3 is within source reference range (3.5 - 5.0 g/dL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Serum Albumin                4.3      g/dL       3.5 - 5.0            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "97f197bf",
+        "test_name": "Total Bilirubin",
+        "category": "Hepatic Panel",
+        "value": "0.7",
+        "numeric_value": 0.7,
+        "unit": "mg/dL",
+        "reference_range_raw": "0.2 - 1.2",
+        "ref_low": 0.2,
+        "ref_high": 1.2,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 0.7 is within source reference range (0.2 - 1.2 mg/dL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Total Bilirubin              0.7      mg/dL      0.2 - 1.2            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "cb052001",
+        "test_name": "Alkaline Phosphatase",
+        "category": "Hepatic Panel",
+        "value": "78",
+        "numeric_value": 78.0,
+        "unit": "U/L",
+        "reference_range_raw": "44 - 121",
+        "ref_low": 44.0,
+        "ref_high": 121.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 78.0 is within source reference range (44.0 - 121.0 U/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Alkaline Phosphatase         78       U/L        44 - 121             Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "b21b37cd",
+        "test_name": "ALT (SGPT)",
+        "category": "Hepatic Panel",
+        "value": "28",
+        "numeric_value": 28.0,
+        "unit": "U/L",
+        "reference_range_raw": "7 - 35",
+        "ref_low": 7.0,
+        "ref_high": 35.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 28.0 is within source reference range (7.0 - 35.0 U/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "ALT (SGPT)                   28       U/L        7 - 35               Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "10b1160f",
+        "test_name": "AST (SGOT)",
+        "category": "Hepatic Panel",
+        "value": "24",
+        "numeric_value": 24.0,
+        "unit": "U/L",
+        "reference_range_raw": "8 - 35",
+        "ref_low": 8.0,
+        "ref_high": 35.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 24.0 is within source reference range (8.0 - 35.0 U/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "AST (SGOT)                   24       U/L        8 - 35               Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "e9200c40",
+        "test_name": "Random Urine Protein",
+        "category": "Urinalysis",
+        "value": "18",
+        "numeric_value": 18.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "Not specified in report",
+        "ref_low": null,
+        "ref_high": null,
+        "ref_textual": null,
+        "status": "UNSPECIFIED",
+        "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Metabolic_Panel_Vance.txt",
+          "snippet": "Random Urine Protein         18       mg/dL                           [Pending range verification]",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      }
+    ],
+    "summary": {
+      "overview": "This unified medical overview aggregates self-reported intake details for a 54-year-old female alongside 18 diagnostic test results extracted from 1 uploaded medical report(s). Current self-reported symptoms include: Persistent daytime fatigue (moderate, 3 weeks), Increased thirst (polydipsia) (mild, 1 month), Mild blurred vision (mild, 10 days). Active reported medications: Metformin 850 mg, Lisinopril 10 mg, Omega-3 Fish Oil 1000 mg.",
+      "key_findings": [
+        "2 diagnostic value(s) fall outside the specific reference ranges provided on the report.",
+        "13 test parameter(s) fall comfortably within the source document's established normal ranges.",
+        "2 test(s) had no explicit reference interval printed on the source report.",
+        "Patient self-reported documented allergies: Sulfa drugs (Cutaneous maculopapular rash), Latex (Contact dermatitis)."
+      ],
+      "out_of_range_explanations": [
+        {
+          "test_name": "Fasting Blood Glucose",
+          "status": "HIGH",
+          "value": "142 mg/dL",
+          "reference_range": "70 - 99",
+          "explanation": "Result was 142 mg/dL, which is elevated (above source high threshold) of [70 - 99]. (Blood sugar level (reflects short-term energy balance and carbohydrate regulation).) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Hemoglobin A1c",
+          "status": "HIGH",
+          "value": "7.4 %",
+          "reference_range": "4.0 - 5.6",
+          "explanation": "Result was 7.4 %, which is elevated (above source high threshold) of [4.0 - 5.6]. (Oxygen-transporting protein found within red blood cells.) Discuss this with your clinician to understand what this means for your individual health context."
+        }
+      ],
+      "questions_for_doctor": [
+        "How do these laboratory results relate to my current symptoms and day-to-day energy levels?",
+        "What follow-up steps, lifestyle adjustments, or repeat testing do you recommend regarding my Fasting Blood Glucose, Hemoglobin A1c?",
+        "Are my current medications still at optimal dosages based on these latest lab results and kidney/liver markers?",
+        "When should I schedule my next routine check-up or follow-up blood work?"
+      ],
+      "disclaimer": "IMPORTANT MEDICAL DISCLAIMER: This summary is generated for informational and organizational purposes only. It does NOT constitute a medical diagnosis, clinical opinion, or treatment advice. Laboratory values must always be interpreted in clinical context by your licensed healthcare provider.",
+      "generated_at": "2026-09-05 12:35:06",
+      "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
+    },
+    "created_at": "2026-09-05 12:35:06",
+    "updated_at": "2026-09-05 12:35:06"
+  },
+  "pt-20931": {
+    "record_id": "pt-20931",
+    "patient": {
+      "patient_id": "PT-20931",
+      "full_name": "Marcus Thorne",
+      "age": 47,
+      "sex": "Male",
+      "dob": "1979-11-03",
+      "blood_type": "O+",
+      "contact_phone": "+1 (555) 782-4412",
+      "emergency_contact": "Elena Thorne (Sister) - +1 (555) 782-4419",
+      "symptoms": [
+        {
+          "name": "Substernal chest tightness on stairs",
+          "severity": "Moderate",
+          "duration": "2 weeks",
+          "notes": "Relieves upon resting within 3 minutes",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Shortness of breath on brisk walking",
+          "severity": "Mild",
+          "duration": "1 month",
+          "notes": "Gradually noticeable over the last month",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "existing_conditions": [
+        {
+          "condition_name": "Hypercholesterolemia",
+          "diagnosed_year_or_date": "2021",
+          "status": "Active",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "condition_name": "Borderline Pre-hypertension",
+          "diagnosed_year_or_date": "2023",
+          "status": "Active",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Penicillin",
+          "reaction": "Hives and facial swelling (angioedema)",
+          "severity": "Severe",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "medications": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "20 mg",
+          "frequency": "Once daily at bedtime",
+          "purpose": "Cholesterol reduction",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Baby Aspirin",
+          "dosage": "81 mg",
+          "frequency": "Once daily with food",
+          "purpose": "Cardiovascular prophylaxis",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "surgical_history": [
+        "Right knee arthroscopy (2018)"
+      ],
+      "lifestyle_notes": "High stress managerial role, travels frequently, diet contains frequent restaurant meals.",
+      "last_updated": "2026-09-05 12:35:06",
+      "provenance": {
+        "source_type": "User Provided",
+        "source_name": "Patient Intake Form",
+        "snippet": null,
+        "page_number": null,
+        "extracted_at": "2026-09-05 12:35:06"
+      }
+    },
+    "reports": [
+      {
+        "report_id": "3bd9df0e",
+        "filename": "Cardio_Lipid_Panel_Thorne.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 12:35:06",
+        "report_date": "08/28/2026",
+        "facility_or_doctor": "REMARKS",
+        "extracted_tests": [
+          {
+            "id": "3c0c37b4",
+            "test_name": "Name",
+            "category": "Diagnostic Lab",
+            "value": "Marcus",
+            "numeric_value": null,
+            "unit": "",
+            "reference_range_raw": "Not specified in report",
+            "ref_low": null,
+            "ref_high": null,
+            "ref_textual": null,
+            "status": "UNSPECIFIED",
+            "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Name: Marcus Thorne     Age: 47     Sex: Male",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "dd41e15e",
+            "test_name": "Referring Cardiologist",
+            "category": "Diagnostic Lab",
+            "value": "Dr",
+            "numeric_value": null,
+            "unit": "",
+            "reference_range_raw": "Not specified in report",
+            "ref_low": null,
+            "ref_high": null,
+            "ref_textual": null,
+            "status": "UNSPECIFIED",
+            "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+            "observation_notes": null,
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Referring Cardiologist: Dr. Helena Vance, MD, FACC",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "8d246c46",
+            "test_name": "Total Cholesterol",
+            "category": "Lipid Panel",
+            "value": "228",
+            "numeric_value": 228.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "< 200",
+            "ref_low": null,
+            "ref_high": 200.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 228.0 exceeds source upper threshold (< 200.0 mg/dL).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Total Cholesterol            228      mg/dL      < 200                HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "4e028228",
+            "test_name": "Triglycerides",
+            "category": "Lipid Panel",
+            "value": "210",
+            "numeric_value": 210.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "< 150",
+            "ref_low": null,
+            "ref_high": 150.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 210.0 exceeds source upper threshold (< 150.0 mg/dL).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Triglycerides                210      mg/dL      < 150                HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "4deb298c",
+            "test_name": "HDL Cholesterol",
+            "category": "Lipid Panel",
+            "value": "38",
+            "numeric_value": 38.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "> 40",
+            "ref_low": 40.0,
+            "ref_high": null,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 38.0 is below source lower threshold (> 40.0 mg/dL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "HDL Cholesterol              38       mg/dL      > 40                 LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "6ecb5c4e",
+            "test_name": "LDL Cholesterol (Calc)",
+            "category": "Lipid Panel",
+            "value": "148",
+            "numeric_value": 148.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "< 100",
+            "ref_low": null,
+            "ref_high": 100.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 148.0 exceeds source upper threshold (< 100.0 mg/dL).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "LDL Cholesterol (Calc)       148      mg/dL      < 100                HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "af4ccd8d",
+            "test_name": "Non-HDL Cholesterol",
+            "category": "Lipid Panel",
+            "value": "190",
+            "numeric_value": 190.0,
+            "unit": "mg/dL",
+            "reference_range_raw": "< 130",
+            "ref_low": null,
+            "ref_high": 130.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 190.0 exceeds source upper threshold (< 130.0 mg/dL).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Non-HDL Cholesterol          190      mg/dL      < 130                HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "5d44ba9f",
+            "test_name": "Cholesterol/HDL Ratio",
+            "category": "Lipid Panel",
+            "value": "6.0",
+            "numeric_value": 6.0,
+            "unit": "ratio",
+            "reference_range_raw": "< 5.0",
+            "ref_low": null,
+            "ref_high": 5.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 6.0 exceeds source upper threshold (< 5.0 ratio).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Cholesterol/HDL Ratio        6.0      ratio      < 5.0                HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "e8133154",
+            "test_name": "High Sensitivity CRP",
+            "category": "Inflammatory Markers",
+            "value": "3.8",
+            "numeric_value": 3.8,
+            "unit": "",
+            "reference_range_raw": "< 1.0",
+            "ref_low": null,
+            "ref_high": 1.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 3.8 exceeds source upper threshold (< 1.0 ).",
+            "observation_notes": "Observation/Status: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "High Sensitivity CRP         3.8      mg/L       < 1.0                HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "adb52bde",
+            "test_name": "Troponin I (High Sens)",
+            "category": "Cardiac Markers",
+            "value": "0.01",
+            "numeric_value": 0.01,
+            "unit": "ng/mL",
+            "reference_range_raw": "< 0.04",
+            "ref_low": null,
+            "ref_high": 0.04,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 0.01 is within source upper threshold (< 0.04 ng/mL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Troponin I (High Sens)       0.01     ng/mL      < 0.04               Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "bb278b1d",
+            "test_name": "Brain Natriuretic Peptide",
+            "category": "Diagnostic Lab",
+            "value": "42",
+            "numeric_value": 42.0,
+            "unit": "pg/mL",
+            "reference_range_raw": "< 100",
+            "ref_low": null,
+            "ref_high": 100.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 42.0 is within source upper threshold (< 100.0 pg/mL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Brain Natriuretic Peptide    42       pg/mL      < 100                Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "badfe0d4",
+            "test_name": "Serum Potassium",
+            "category": "Electrolytes",
+            "value": "4.1",
+            "numeric_value": 4.1,
+            "unit": "mEq/L",
+            "reference_range_raw": "3.5 - 5.0",
+            "ref_low": 3.5,
+            "ref_high": 5.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 4.1 is within source reference range (3.5 - 5.0 mEq/L).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+              "snippet": "Serum Potassium              4.1      mEq/L      3.5 - 5.0            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          }
+        ],
+        "raw_text_preview": "APEX CARDIOLOGY & METABOLIC INSTITUTE\nDivision of Preventive Cardiology\nLab Accession: APX-994012    Date: 08/28/2026\n\nPATIENT DETAILS:\nName: Marcus Thorne     Age: 47     Sex: Male\nReferring Cardiologist: Dr. Helena Vance, MD, FACC\n\n=========================================================================================\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL   STATUS / FLAG\n=========================================================================================\nTotal Cholesterol            228      mg/dL      < 200                HIGH\nTriglycerides                210      mg/dL      < 150                HIGH\nHDL Cholesterol              38       mg/dL      > 40                 LOW\nLDL Cholesterol (Calc)       148      mg/dL      < 100                HIGH\nNon-HDL Cholesterol          190      mg/dL      < 130                HIGH\nCholesterol/HDL Ratio        6.0      ratio      < 5.0                HIGH\nHigh Sensitivity CRP         3.8      mg/L       < 1.0                HIGH\nTroponin I (High Sens)       0.01     ng/mL      < 0.04               Normal\nBrain Natriuretic Peptide    42       pg/mL      < 100                Normal\nSerum Potassium              4.1      mEq/L      3.5 - 5.0            Normal\n=========================================================================================\nLABORATORY REMARKS:\n- Lipid profile demonstrates atherogenic dyslipidemia with elevated LDL, elevated Triglycerides, and sub-optimal HDL.\n- High-sensitivity ",
+        "extraction_method": "Deterministic Clinical NLP"
+      }
+    ],
+    "all_lab_results": [
+      {
+        "id": "3c0c37b4",
+        "test_name": "Name",
+        "category": "Diagnostic Lab",
+        "value": "Marcus",
+        "numeric_value": null,
+        "unit": "",
+        "reference_range_raw": "Not specified in report",
+        "ref_low": null,
+        "ref_high": null,
+        "ref_textual": null,
+        "status": "UNSPECIFIED",
+        "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Name: Marcus Thorne     Age: 47     Sex: Male",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "dd41e15e",
+        "test_name": "Referring Cardiologist",
+        "category": "Diagnostic Lab",
+        "value": "Dr",
+        "numeric_value": null,
+        "unit": "",
+        "reference_range_raw": "Not specified in report",
+        "ref_low": null,
+        "ref_high": null,
+        "ref_textual": null,
+        "status": "UNSPECIFIED",
+        "status_reason": "No reference range specified in source report (system does not assume or invent standard ranges).",
+        "observation_notes": null,
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Referring Cardiologist: Dr. Helena Vance, MD, FACC",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "8d246c46",
+        "test_name": "Total Cholesterol",
+        "category": "Lipid Panel",
+        "value": "228",
+        "numeric_value": 228.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "< 200",
+        "ref_low": null,
+        "ref_high": 200.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 228.0 exceeds source upper threshold (< 200.0 mg/dL).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Total Cholesterol            228      mg/dL      < 200                HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "4e028228",
+        "test_name": "Triglycerides",
+        "category": "Lipid Panel",
+        "value": "210",
+        "numeric_value": 210.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "< 150",
+        "ref_low": null,
+        "ref_high": 150.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 210.0 exceeds source upper threshold (< 150.0 mg/dL).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Triglycerides                210      mg/dL      < 150                HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "4deb298c",
+        "test_name": "HDL Cholesterol",
+        "category": "Lipid Panel",
+        "value": "38",
+        "numeric_value": 38.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "> 40",
+        "ref_low": 40.0,
+        "ref_high": null,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 38.0 is below source lower threshold (> 40.0 mg/dL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "HDL Cholesterol              38       mg/dL      > 40                 LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "6ecb5c4e",
+        "test_name": "LDL Cholesterol (Calc)",
+        "category": "Lipid Panel",
+        "value": "148",
+        "numeric_value": 148.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "< 100",
+        "ref_low": null,
+        "ref_high": 100.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 148.0 exceeds source upper threshold (< 100.0 mg/dL).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "LDL Cholesterol (Calc)       148      mg/dL      < 100                HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "af4ccd8d",
+        "test_name": "Non-HDL Cholesterol",
+        "category": "Lipid Panel",
+        "value": "190",
+        "numeric_value": 190.0,
+        "unit": "mg/dL",
+        "reference_range_raw": "< 130",
+        "ref_low": null,
+        "ref_high": 130.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 190.0 exceeds source upper threshold (< 130.0 mg/dL).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Non-HDL Cholesterol          190      mg/dL      < 130                HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "5d44ba9f",
+        "test_name": "Cholesterol/HDL Ratio",
+        "category": "Lipid Panel",
+        "value": "6.0",
+        "numeric_value": 6.0,
+        "unit": "ratio",
+        "reference_range_raw": "< 5.0",
+        "ref_low": null,
+        "ref_high": 5.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 6.0 exceeds source upper threshold (< 5.0 ratio).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Cholesterol/HDL Ratio        6.0      ratio      < 5.0                HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "e8133154",
+        "test_name": "High Sensitivity CRP",
+        "category": "Inflammatory Markers",
+        "value": "3.8",
+        "numeric_value": 3.8,
+        "unit": "",
+        "reference_range_raw": "< 1.0",
+        "ref_low": null,
+        "ref_high": 1.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 3.8 exceeds source upper threshold (< 1.0 ).",
+        "observation_notes": "Observation/Status: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "High Sensitivity CRP         3.8      mg/L       < 1.0                HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "adb52bde",
+        "test_name": "Troponin I (High Sens)",
+        "category": "Cardiac Markers",
+        "value": "0.01",
+        "numeric_value": 0.01,
+        "unit": "ng/mL",
+        "reference_range_raw": "< 0.04",
+        "ref_low": null,
+        "ref_high": 0.04,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 0.01 is within source upper threshold (< 0.04 ng/mL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Troponin I (High Sens)       0.01     ng/mL      < 0.04               Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "bb278b1d",
+        "test_name": "Brain Natriuretic Peptide",
+        "category": "Diagnostic Lab",
+        "value": "42",
+        "numeric_value": 42.0,
+        "unit": "pg/mL",
+        "reference_range_raw": "< 100",
+        "ref_low": null,
+        "ref_high": 100.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 42.0 is within source upper threshold (< 100.0 pg/mL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Brain Natriuretic Peptide    42       pg/mL      < 100                Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "badfe0d4",
+        "test_name": "Serum Potassium",
+        "category": "Electrolytes",
+        "value": "4.1",
+        "numeric_value": 4.1,
+        "unit": "mEq/L",
+        "reference_range_raw": "3.5 - 5.0",
+        "ref_low": 3.5,
+        "ref_high": 5.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 4.1 is within source reference range (3.5 - 5.0 mEq/L).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "Cardio_Lipid_Panel_Thorne.txt",
+          "snippet": "Serum Potassium              4.1      mEq/L      3.5 - 5.0            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      }
+    ],
+    "summary": {
+      "overview": "This unified medical overview aggregates self-reported intake details for a 47-year-old male alongside 12 diagnostic test results extracted from 1 uploaded medical report(s). Current self-reported symptoms include: Substernal chest tightness on stairs (moderate, 2 weeks), Shortness of breath on brisk walking (mild, 1 month). Active reported medications: Atorvastatin 20 mg, Baby Aspirin 81 mg.",
+      "key_findings": [
+        "7 diagnostic value(s) fall outside the specific reference ranges provided on the report.",
+        "3 test parameter(s) fall comfortably within the source document's established normal ranges.",
+        "2 test(s) had no explicit reference interval printed on the source report.",
+        "Patient self-reported documented allergies: Penicillin (Hives and facial swelling (angioedema))."
+      ],
+      "out_of_range_explanations": [
+        {
+          "test_name": "Total Cholesterol",
+          "status": "HIGH",
+          "value": "228 mg/dL",
+          "reference_range": "< 200",
+          "explanation": "Result was 228 mg/dL, which is elevated (above source high threshold) of [< 200]. (Combined measurement of various blood fats (lipids).) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Triglycerides",
+          "status": "HIGH",
+          "value": "210 mg/dL",
+          "reference_range": "< 150",
+          "explanation": "Result was 210 mg/dL, which is elevated (above source high threshold) of [< 150]. (Most common type of fat in the bloodstream, often linked to calorie intake and metabolism.) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "HDL Cholesterol",
+          "status": "LOW",
+          "value": "38 mg/dL",
+          "reference_range": "> 40",
+          "explanation": "Result was 38 mg/dL, which is below source low threshold of [> 40]. (High-Density Lipoprotein ('good' cholesterol that carries fats back to the liver).) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "LDL Cholesterol (Calc)",
+          "status": "HIGH",
+          "value": "148 mg/dL",
+          "reference_range": "< 100",
+          "explanation": "Result was 148 mg/dL, which is elevated (above source high threshold) of [< 100]. (Low-Density Lipoprotein ('bad' cholesterol that can accumulate in blood vessel walls).) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Non-HDL Cholesterol",
+          "status": "HIGH",
+          "value": "190 mg/dL",
+          "reference_range": "< 130",
+          "explanation": "Result was 190 mg/dL, which is elevated (above source high threshold) of [< 130]. (High-Density Lipoprotein ('good' cholesterol that carries fats back to the liver).) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Cholesterol/HDL Ratio",
+          "status": "HIGH",
+          "value": "6.0 ratio",
+          "reference_range": "< 5.0",
+          "explanation": "Result was 6.0 ratio, which is elevated (above source high threshold) of [< 5.0]. (High-Density Lipoprotein ('good' cholesterol that carries fats back to the liver).) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "High Sensitivity CRP",
+          "status": "HIGH",
+          "value": "3.8",
+          "reference_range": "< 1.0",
+          "explanation": "Result was 3.8 , which is elevated (above source high threshold) of [< 1.0]. Discuss this with your clinician to understand what this means for your individual health context."
+        }
+      ],
+      "questions_for_doctor": [
+        "How do these laboratory results relate to my current symptoms and day-to-day energy levels?",
+        "What follow-up steps, lifestyle adjustments, or repeat testing do you recommend regarding my Total Cholesterol, Triglycerides, HDL Cholesterol?",
+        "Are my current medications still at optimal dosages based on these latest lab results and kidney/liver markers?",
+        "When should I schedule my next routine check-up or follow-up blood work?"
+      ],
+      "disclaimer": "IMPORTANT MEDICAL DISCLAIMER: This summary is generated for informational and organizational purposes only. It does NOT constitute a medical diagnosis, clinical opinion, or treatment advice. Laboratory values must always be interpreted in clinical context by your licensed healthcare provider.",
+      "generated_at": "2026-09-05 12:35:06",
+      "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
+    },
+    "created_at": "2026-09-05 12:35:06",
+    "updated_at": "2026-09-05 12:35:06"
+  },
+  "pt-33019": {
+    "record_id": "pt-33019",
+    "patient": {
+      "patient_id": "PT-33019",
+      "full_name": "Sarah Chen",
+      "age": 29,
+      "sex": "Female",
+      "dob": "1997-07-22",
+      "blood_type": "B+",
+      "contact_phone": "+1 (555) 349-1120",
+      "emergency_contact": "Kevin Chen (Brother) - +1 (555) 349-1122",
+      "symptoms": [
+        {
+          "name": "Severe chronic fatigue",
+          "severity": "Severe",
+          "duration": "2 months",
+          "notes": "Impacting ability to exercise or focus",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Lightheadedness on standing",
+          "severity": "Moderate",
+          "duration": "3 weeks",
+          "notes": "Postural dizziness",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        },
+        {
+          "name": "Cold extremities / Brittle nails",
+          "severity": "Mild",
+          "duration": "Ongoing",
+          "notes": "Noticeable spooning appearance on fingernails",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "existing_conditions": [
+        {
+          "condition_name": "Heavy Menstrual Bleeding (Menorrhagia)",
+          "diagnosed_year_or_date": "2022",
+          "status": "Active",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Ibuprofen / NSAIDs",
+          "reaction": "Gastric pain and heartburn",
+          "severity": "Moderate",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "medications": [
+        {
+          "name": "Women's Daily Multivitamin",
+          "dosage": "1 tablet",
+          "frequency": "Once daily",
+          "purpose": "Nutritional supplement",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:06"
+          }
+        }
+      ],
+      "surgical_history": [
+        "Wisdom teeth extraction (2016)"
+      ],
+      "lifestyle_notes": "Vegetarian diet for 5 years, desk worker, exercises occasionally.",
+      "last_updated": "2026-09-05 12:35:06",
+      "provenance": {
+        "source_type": "User Provided",
+        "source_name": "Patient Intake Form",
+        "snippet": null,
+        "page_number": null,
+        "extracted_at": "2026-09-05 12:35:06"
+      }
+    },
+    "reports": [
+      {
+        "report_id": "05205e99",
+        "filename": "CBC_Iron_Study_Chen.txt",
+        "file_type": ".txt",
+        "upload_time": "2026-09-05 12:35:06",
+        "report_date": "09/01/2026",
+        "facility_or_doctor": "Comprehensive Hematology Section",
+        "extracted_tests": [
+          {
+            "id": "212f9f0e",
+            "test_name": "White Blood Count (WBC)",
+            "category": "Hematology",
+            "value": "6.8",
+            "numeric_value": 6.8,
+            "unit": "K/uL",
+            "reference_range_raw": "4.0 - 11.0",
+            "ref_low": 4.0,
+            "ref_high": 11.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 6.8 is within source reference range (4.0 - 11.0 K/uL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "White Blood Count (WBC)      6.8      K/uL       4.0 - 11.0           Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "c5338e46",
+            "test_name": "Red Blood Count (RBC)",
+            "category": "Hematology",
+            "value": "3.4",
+            "numeric_value": 3.4,
+            "unit": "M/uL",
+            "reference_range_raw": "4.0 - 5.2",
+            "ref_low": 4.0,
+            "ref_high": 5.2,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 3.4 is below source reference range (4.0 - 5.2 M/uL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Red Blood Count (RBC)        3.4      M/uL       4.0 - 5.2            LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "1af53a0d",
+            "test_name": "Hemoglobin",
+            "category": "Hematology",
+            "value": "9.8",
+            "numeric_value": 9.8,
+            "unit": "g/dL",
+            "reference_range_raw": "12.0 - 15.5",
+            "ref_low": 12.0,
+            "ref_high": 15.5,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 9.8 is below source reference range (12.0 - 15.5 g/dL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Hemoglobin                   9.8      g/dL       12.0 - 15.5          LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "1735daf6",
+            "test_name": "Hematocrit",
+            "category": "Hematology",
+            "value": "30.5",
+            "numeric_value": 30.5,
+            "unit": "%",
+            "reference_range_raw": "36.0 - 46.0",
+            "ref_low": 36.0,
+            "ref_high": 46.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 30.5 is below source reference range (36.0 - 46.0 %).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Hematocrit                   30.5     %          36.0 - 46.0          LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "ad2fd211",
+            "test_name": "MCV",
+            "category": "Hematology",
+            "value": "72",
+            "numeric_value": 72.0,
+            "unit": "fL",
+            "reference_range_raw": "80 - 100",
+            "ref_low": 80.0,
+            "ref_high": 100.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 72.0 is below source reference range (80.0 - 100.0 fL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "MCV                          72       fL         80 - 100             LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "01b7cb09",
+            "test_name": "MCH",
+            "category": "Hematology",
+            "value": "23.4",
+            "numeric_value": 23.4,
+            "unit": "pg",
+            "reference_range_raw": "27.0 - 33.0",
+            "ref_low": 27.0,
+            "ref_high": 33.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 23.4 is below source reference range (27.0 - 33.0 pg).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "MCH                          23.4     pg         27.0 - 33.0          LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "974556fe",
+            "test_name": "MCHC",
+            "category": "Hematology",
+            "value": "30.2",
+            "numeric_value": 30.2,
+            "unit": "g/dL",
+            "reference_range_raw": "32.0 - 36.0",
+            "ref_low": 32.0,
+            "ref_high": 36.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 30.2 is below source reference range (32.0 - 36.0 g/dL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "MCHC                         30.2     g/dL       32.0 - 36.0          LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "4abbcaac",
+            "test_name": "RDW",
+            "category": "Hematology",
+            "value": "17.2",
+            "numeric_value": 17.2,
+            "unit": "%",
+            "reference_range_raw": "11.5 - 14.5",
+            "ref_low": 11.5,
+            "ref_high": 14.5,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 17.2 is above source reference range (11.5 - 14.5 %).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "RDW                          17.2     %          11.5 - 14.5          HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "5133cfd8",
+            "test_name": "Platelet Count",
+            "category": "Hematology",
+            "value": "285",
+            "numeric_value": 285.0,
+            "unit": "K/uL",
+            "reference_range_raw": "150 - 450",
+            "ref_low": 150.0,
+            "ref_high": 450.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 285.0 is within source reference range (150.0 - 450.0 K/uL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Platelet Count               285      K/uL       150 - 450            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "12b76e1d",
+            "test_name": "Serum Ferritin",
+            "category": "Iron Studies",
+            "value": "8",
+            "numeric_value": 8.0,
+            "unit": "ng/mL",
+            "reference_range_raw": "15 - 150",
+            "ref_low": 15.0,
+            "ref_high": 150.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 8.0 is below source reference range (15.0 - 150.0 ng/mL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Serum Ferritin               8        ng/mL      15 - 150             LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "34b7981d",
+            "test_name": "Serum Iron",
+            "category": "Iron Studies",
+            "value": "28",
+            "numeric_value": 28.0,
+            "unit": "mcg/dL",
+            "reference_range_raw": "50 - 170",
+            "ref_low": 50.0,
+            "ref_high": 170.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 28.0 is below source reference range (50.0 - 170.0 mcg/dL).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Serum Iron                   28       mcg/dL     50 - 170             LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "dd556a05",
+            "test_name": "Total Iron Binding (TIBC)",
+            "category": "Iron Studies",
+            "value": "440",
+            "numeric_value": 440.0,
+            "unit": "mcg/dL",
+            "reference_range_raw": "250 - 400",
+            "ref_low": 250.0,
+            "ref_high": 400.0,
+            "ref_textual": null,
+            "status": "HIGH",
+            "status_reason": "Value 440.0 is above source reference range (250.0 - 400.0 mcg/dL).",
+            "observation_notes": "Report flagged as: HIGH",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Total Iron Binding (TIBC)    440      mcg/dL     250 - 400            HIGH",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "2db0dc9b",
+            "test_name": "Transferrin Saturation",
+            "category": "Iron Studies",
+            "value": "6.4",
+            "numeric_value": 6.4,
+            "unit": "%",
+            "reference_range_raw": "15.0 - 50.0",
+            "ref_low": 15.0,
+            "ref_high": 50.0,
+            "ref_textual": null,
+            "status": "LOW",
+            "status_reason": "Value 6.4 is below source reference range (15.0 - 50.0 %).",
+            "observation_notes": "Report flagged as: LOW",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Transferrin Saturation       6.4      %          15.0 - 50.0          LOW",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          },
+          {
+            "id": "9a1285f2",
+            "test_name": "Vitamin B12",
+            "category": "Vitamins & Minerals",
+            "value": "480",
+            "numeric_value": 480.0,
+            "unit": "pg/mL",
+            "reference_range_raw": "200 - 900",
+            "ref_low": 200.0,
+            "ref_high": 900.0,
+            "ref_textual": null,
+            "status": "NORMAL",
+            "status_reason": "Value 480.0 is within source reference range (200.0 - 900.0 pg/mL).",
+            "observation_notes": "Report flagged as: Normal",
+            "test_date": null,
+            "provenance": {
+              "source_type": "Extracted from Report",
+              "source_name": "CBC_Iron_Study_Chen.txt",
+              "snippet": "Vitamin B12                  480      pg/mL      200 - 900            Normal",
+              "page_number": 1,
+              "extracted_at": "2026-09-05 12:35:06"
+            }
+          }
+        ],
+        "raw_text_preview": "BIO-PATH DIAGNOSTICS LABORATORY\nComprehensive Hematology Section\nCollection Date: 09/01/2026\n\nPATIENT DEMOGRAPHICS:\nPatient: Sarah Chen     Age: 29     Gender: Female\nSpecimen: Whole Blood EDTA / Serum     Accession: BPD-772183\n\n=========================================================================================\nTEST NAME                    RESULT   UNITS      REFERENCE INTERVAL   STATUS / FLAG\n=========================================================================================\nWhite Blood Count (WBC)      6.8      K/uL       4.0 - 11.0           Normal\nRed Blood Count (RBC)        3.4      M/uL       4.0 - 5.2            LOW\nHemoglobin                   9.8      g/dL       12.0 - 15.5          LOW\nHematocrit                   30.5     %          36.0 - 46.0          LOW\nMCV                          72       fL         80 - 100             LOW\nMCH                          23.4     pg         27.0 - 33.0          LOW\nMCHC                         30.2     g/dL       32.0 - 36.0          LOW\nRDW                          17.2     %          11.5 - 14.5          HIGH\nPlatelet Count               285      K/uL       150 - 450            Normal\nSerum Ferritin               8        ng/mL      15 - 150             LOW\nSerum Iron                   28       mcg/dL     50 - 170             LOW\nTotal Iron Binding (TIBC)    440      mcg/dL     250 - 400            HIGH\nTransferrin Saturation       6.4      %          15.0 - 50.0          LOW\nVitamin B12                  480     ",
+        "extraction_method": "Deterministic Clinical NLP"
+      }
+    ],
+    "all_lab_results": [
+      {
+        "id": "212f9f0e",
+        "test_name": "White Blood Count (WBC)",
+        "category": "Hematology",
+        "value": "6.8",
+        "numeric_value": 6.8,
+        "unit": "K/uL",
+        "reference_range_raw": "4.0 - 11.0",
+        "ref_low": 4.0,
+        "ref_high": 11.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 6.8 is within source reference range (4.0 - 11.0 K/uL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "White Blood Count (WBC)      6.8      K/uL       4.0 - 11.0           Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "c5338e46",
+        "test_name": "Red Blood Count (RBC)",
+        "category": "Hematology",
+        "value": "3.4",
+        "numeric_value": 3.4,
+        "unit": "M/uL",
+        "reference_range_raw": "4.0 - 5.2",
+        "ref_low": 4.0,
+        "ref_high": 5.2,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 3.4 is below source reference range (4.0 - 5.2 M/uL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Red Blood Count (RBC)        3.4      M/uL       4.0 - 5.2            LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "1af53a0d",
+        "test_name": "Hemoglobin",
+        "category": "Hematology",
+        "value": "9.8",
+        "numeric_value": 9.8,
+        "unit": "g/dL",
+        "reference_range_raw": "12.0 - 15.5",
+        "ref_low": 12.0,
+        "ref_high": 15.5,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 9.8 is below source reference range (12.0 - 15.5 g/dL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Hemoglobin                   9.8      g/dL       12.0 - 15.5          LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "1735daf6",
+        "test_name": "Hematocrit",
+        "category": "Hematology",
+        "value": "30.5",
+        "numeric_value": 30.5,
+        "unit": "%",
+        "reference_range_raw": "36.0 - 46.0",
+        "ref_low": 36.0,
+        "ref_high": 46.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 30.5 is below source reference range (36.0 - 46.0 %).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Hematocrit                   30.5     %          36.0 - 46.0          LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "ad2fd211",
+        "test_name": "MCV",
+        "category": "Hematology",
+        "value": "72",
+        "numeric_value": 72.0,
+        "unit": "fL",
+        "reference_range_raw": "80 - 100",
+        "ref_low": 80.0,
+        "ref_high": 100.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 72.0 is below source reference range (80.0 - 100.0 fL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "MCV                          72       fL         80 - 100             LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "01b7cb09",
+        "test_name": "MCH",
+        "category": "Hematology",
+        "value": "23.4",
+        "numeric_value": 23.4,
+        "unit": "pg",
+        "reference_range_raw": "27.0 - 33.0",
+        "ref_low": 27.0,
+        "ref_high": 33.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 23.4 is below source reference range (27.0 - 33.0 pg).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "MCH                          23.4     pg         27.0 - 33.0          LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "974556fe",
+        "test_name": "MCHC",
+        "category": "Hematology",
+        "value": "30.2",
+        "numeric_value": 30.2,
+        "unit": "g/dL",
+        "reference_range_raw": "32.0 - 36.0",
+        "ref_low": 32.0,
+        "ref_high": 36.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 30.2 is below source reference range (32.0 - 36.0 g/dL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "MCHC                         30.2     g/dL       32.0 - 36.0          LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "4abbcaac",
+        "test_name": "RDW",
+        "category": "Hematology",
+        "value": "17.2",
+        "numeric_value": 17.2,
+        "unit": "%",
+        "reference_range_raw": "11.5 - 14.5",
+        "ref_low": 11.5,
+        "ref_high": 14.5,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 17.2 is above source reference range (11.5 - 14.5 %).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "RDW                          17.2     %          11.5 - 14.5          HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "5133cfd8",
+        "test_name": "Platelet Count",
+        "category": "Hematology",
+        "value": "285",
+        "numeric_value": 285.0,
+        "unit": "K/uL",
+        "reference_range_raw": "150 - 450",
+        "ref_low": 150.0,
+        "ref_high": 450.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 285.0 is within source reference range (150.0 - 450.0 K/uL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Platelet Count               285      K/uL       150 - 450            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "12b76e1d",
+        "test_name": "Serum Ferritin",
+        "category": "Iron Studies",
+        "value": "8",
+        "numeric_value": 8.0,
+        "unit": "ng/mL",
+        "reference_range_raw": "15 - 150",
+        "ref_low": 15.0,
+        "ref_high": 150.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 8.0 is below source reference range (15.0 - 150.0 ng/mL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Serum Ferritin               8        ng/mL      15 - 150             LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "34b7981d",
+        "test_name": "Serum Iron",
+        "category": "Iron Studies",
+        "value": "28",
+        "numeric_value": 28.0,
+        "unit": "mcg/dL",
+        "reference_range_raw": "50 - 170",
+        "ref_low": 50.0,
+        "ref_high": 170.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 28.0 is below source reference range (50.0 - 170.0 mcg/dL).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Serum Iron                   28       mcg/dL     50 - 170             LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "dd556a05",
+        "test_name": "Total Iron Binding (TIBC)",
+        "category": "Iron Studies",
+        "value": "440",
+        "numeric_value": 440.0,
+        "unit": "mcg/dL",
+        "reference_range_raw": "250 - 400",
+        "ref_low": 250.0,
+        "ref_high": 400.0,
+        "ref_textual": null,
+        "status": "HIGH",
+        "status_reason": "Value 440.0 is above source reference range (250.0 - 400.0 mcg/dL).",
+        "observation_notes": "Report flagged as: HIGH",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Total Iron Binding (TIBC)    440      mcg/dL     250 - 400            HIGH",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "2db0dc9b",
+        "test_name": "Transferrin Saturation",
+        "category": "Iron Studies",
+        "value": "6.4",
+        "numeric_value": 6.4,
+        "unit": "%",
+        "reference_range_raw": "15.0 - 50.0",
+        "ref_low": 15.0,
+        "ref_high": 50.0,
+        "ref_textual": null,
+        "status": "LOW",
+        "status_reason": "Value 6.4 is below source reference range (15.0 - 50.0 %).",
+        "observation_notes": "Report flagged as: LOW",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Transferrin Saturation       6.4      %          15.0 - 50.0          LOW",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      },
+      {
+        "id": "9a1285f2",
+        "test_name": "Vitamin B12",
+        "category": "Vitamins & Minerals",
+        "value": "480",
+        "numeric_value": 480.0,
+        "unit": "pg/mL",
+        "reference_range_raw": "200 - 900",
+        "ref_low": 200.0,
+        "ref_high": 900.0,
+        "ref_textual": null,
+        "status": "NORMAL",
+        "status_reason": "Value 480.0 is within source reference range (200.0 - 900.0 pg/mL).",
+        "observation_notes": "Report flagged as: Normal",
+        "test_date": null,
+        "provenance": {
+          "source_type": "Extracted from Report",
+          "source_name": "CBC_Iron_Study_Chen.txt",
+          "snippet": "Vitamin B12                  480      pg/mL      200 - 900            Normal",
+          "page_number": 1,
+          "extracted_at": "2026-09-05 12:35:06"
+        }
+      }
+    ],
+    "summary": {
+      "overview": "This unified medical overview aggregates self-reported intake details for a 29-year-old female alongside 14 diagnostic test results extracted from 1 uploaded medical report(s). Current self-reported symptoms include: Severe chronic fatigue (severe, 2 months), Lightheadedness on standing (moderate, 3 weeks), Cold extremities / Brittle nails (mild, Ongoing). Active reported medications: Women's Daily Multivitamin 1 tablet.",
+      "key_findings": [
+        "11 diagnostic value(s) fall outside the specific reference ranges provided on the report.",
+        "3 test parameter(s) fall comfortably within the source document's established normal ranges.",
+        "Patient self-reported documented allergies: Ibuprofen / NSAIDs (Gastric pain and heartburn)."
+      ],
+      "out_of_range_explanations": [
+        {
+          "test_name": "Red Blood Count (RBC)",
+          "status": "LOW",
+          "value": "3.4 M/uL",
+          "reference_range": "4.0 - 5.2",
+          "explanation": "Result was 3.4 M/uL, which is below source low threshold of [4.0 - 5.2]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Hemoglobin",
+          "status": "LOW",
+          "value": "9.8 g/dL",
+          "reference_range": "12.0 - 15.5",
+          "explanation": "Result was 9.8 g/dL, which is below source low threshold of [12.0 - 15.5]. (Oxygen-transporting protein found within red blood cells.) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Hematocrit",
+          "status": "LOW",
+          "value": "30.5 %",
+          "reference_range": "36.0 - 46.0",
+          "explanation": "Result was 30.5 %, which is below source low threshold of [36.0 - 46.0]. (Percentage of total blood volume made up of red blood cells.) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "MCV",
+          "status": "LOW",
+          "value": "72 fL",
+          "reference_range": "80 - 100",
+          "explanation": "Result was 72 fL, which is below source low threshold of [80 - 100]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "MCH",
+          "status": "LOW",
+          "value": "23.4 pg",
+          "reference_range": "27.0 - 33.0",
+          "explanation": "Result was 23.4 pg, which is below source low threshold of [27.0 - 33.0]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "MCHC",
+          "status": "LOW",
+          "value": "30.2 g/dL",
+          "reference_range": "32.0 - 36.0",
+          "explanation": "Result was 30.2 g/dL, which is below source low threshold of [32.0 - 36.0]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "RDW",
+          "status": "HIGH",
+          "value": "17.2 %",
+          "reference_range": "11.5 - 14.5",
+          "explanation": "Result was 17.2 %, which is elevated (above source high threshold) of [11.5 - 14.5]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Serum Ferritin",
+          "status": "LOW",
+          "value": "8 ng/mL",
+          "reference_range": "15 - 150",
+          "explanation": "Result was 8 ng/mL, which is below source low threshold of [15 - 150]. (Protein that stores iron inside body tissues for future red blood cell production.) Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Serum Iron",
+          "status": "LOW",
+          "value": "28 mcg/dL",
+          "reference_range": "50 - 170",
+          "explanation": "Result was 28 mcg/dL, which is below source low threshold of [50 - 170]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Total Iron Binding (TIBC)",
+          "status": "HIGH",
+          "value": "440 mcg/dL",
+          "reference_range": "250 - 400",
+          "explanation": "Result was 440 mcg/dL, which is elevated (above source high threshold) of [250 - 400]. Discuss this with your clinician to understand what this means for your individual health context."
+        },
+        {
+          "test_name": "Transferrin Saturation",
+          "status": "LOW",
+          "value": "6.4 %",
+          "reference_range": "15.0 - 50.0",
+          "explanation": "Result was 6.4 %, which is below source low threshold of [15.0 - 50.0]. Discuss this with your clinician to understand what this means for your individual health context."
+        }
+      ],
+      "questions_for_doctor": [
+        "How do these laboratory results relate to my current symptoms and day-to-day energy levels?",
+        "What follow-up steps, lifestyle adjustments, or repeat testing do you recommend regarding my Red Blood Count (RBC), Hemoglobin, Hematocrit?",
+        "Are my current medications still at optimal dosages based on these latest lab results and kidney/liver markers?",
+        "When should I schedule my next routine check-up or follow-up blood work?"
+      ],
+      "disclaimer": "IMPORTANT MEDICAL DISCLAIMER: This summary is generated for informational and organizational purposes only. It does NOT constitute a medical diagnosis, clinical opinion, or treatment advice. Laboratory values must always be interpreted in clinical context by your licensed healthcare provider.",
+      "generated_at": "2026-09-05 12:35:06",
+      "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
+    },
+    "created_at": "2026-09-05 12:35:06",
+    "updated_at": "2026-09-05 12:35:06"
+  },
+  "dj6969": {
+    "record_id": "dj6969",
+    "patient": {
+      "patient_id": "DJ6969",
+      "full_name": "DJ Tillu",
+      "age": 30,
+      "sex": "Male",
+      "dob": "1996-08-15",
+      "blood_type": "B+",
+      "contact_phone": "1234567890",
+      "emergency_contact": "112",
+      "symptoms": [
+        {
+          "name": "chest pain",
+          "severity": "Moderate",
+          "duration": "5 weeks",
+          "notes": "he smokes regularly",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:20"
+          }
+        }
+      ],
+      "existing_conditions": [
+        {
+          "condition_name": "hypertension",
+          "diagnosed_year_or_date": "2000",
+          "status": "In Remission",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:20"
+          }
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "penicillin",
+          "reaction": "Hives",
+          "severity": "Moderate",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:20"
+          }
+        }
+      ],
+      "medications": [
+        {
+          "name": "metformin",
+          "dosage": "500mg",
+          "frequency": "weekly once",
+          "purpose": "B.P",
+          "provenance": {
+            "source_type": "User Provided",
+            "source_name": "Patient Intake",
+            "snippet": null,
+            "page_number": null,
+            "extracted_at": "2026-09-05 12:35:20"
+          }
+        }
+      ],
+      "surgical_history": [
+        "Appendix in 2016"
+      ],
+      "lifestyle_notes": "daily runnng",
+      "last_updated": "2026-09-05 12:35:20",
+      "provenance": {
+        "source_type": "User Provided",
+        "source_name": "Patient Intake Form",
+        "snippet": null,
+        "page_number": null,
+        "extracted_at": "2026-09-05 12:35:20"
+      }
+    },
+    "reports": [],
+    "all_lab_results": [],
+    "summary": {
+      "overview": "This unified medical overview aggregates self-reported intake details for a 30-year-old male alongside 0 diagnostic test results extracted from 0 uploaded medical report(s). Current self-reported symptoms include: chest pain (moderate, 5 weeks). Active reported medications: metformin 500mg.",
+      "key_findings": [
+        "Patient self-reported documented allergies: penicillin (Hives)."
+      ],
+      "out_of_range_explanations": [],
+      "questions_for_doctor": [
+        "How do these laboratory results relate to my current symptoms and day-to-day energy levels?",
+        "Are my current medications still at optimal dosages based on these latest lab results and kidney/liver markers?",
+        "When should I schedule my next routine check-up or follow-up blood work?"
+      ],
+      "disclaimer": "IMPORTANT MEDICAL DISCLAIMER: This summary is generated for informational and organizational purposes only. It does NOT constitute a medical diagnosis, clinical opinion, or treatment advice. Laboratory values must always be interpreted in clinical context by your licensed healthcare provider.",
+      "generated_at": "2026-09-05 12:35:20",
+      "generation_engine": "Clinical Synthesis Engine (Deterministic & Guardrailed)"
+    },
+    "created_at": "2026-09-05 12:35:20",
+    "updated_at": "2026-09-05 12:35:20"
+  }
+}
